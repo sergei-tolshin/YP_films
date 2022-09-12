@@ -36,7 +36,7 @@ class Settings(BaseSettings):
 
     # Переводчик
     TRANSLATE_URL: HttpUrl = 'https://translate.api.cloud.yandex.net/translate/v2/translate'
-    TRANSLATE_TOKEN: str = 'AQVNzY9B-qIedi-6DPWuaxwDUVLJ4ZoC2F2d38Gq'
+    TRANSLATE_TOKEN: str = ''
 
     class Config:
         env_file = '.env'

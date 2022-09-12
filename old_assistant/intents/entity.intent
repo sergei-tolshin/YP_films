@@ -1,0 +1,28 @@
+entity Person:
+    lemma: true
+    values:
+        director:
+            режиссер
+            снимать
+        writer:
+            сценарист
+            написать сценарий
+            автор
+        actor:
+            актер
+            сниматься
+            герой
+
+entity VideoType:
+    lemma: true
+    values:
+        movie:
+            фильм
+            мультфильм
+            сериал
+            видео
+            кино
+        tv_show:
+            тв-шоу
+            шоу
+            передача

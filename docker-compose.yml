@@ -1,0 +1,299 @@
+version: '3.9'
+
+x-variables: &variables
+  DJANGO_SETTINGS_MODULE: config.settings
+  DJANGO_SECRET_KEY: $DJANGO_SECRET_KEY
+
+  POSTGRES_HOST: movies-db
+  POSTGRES_PORT: 5432
+  POSTGRES_DB: $POSTGRES_DB
+  POSTGRES_USER: $POSTGRES_USER
+  POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+  GUNICORN_CONFIG: config/gunicorn.conf.py
+
+  ELASTIC_HOST: elastic
+  ELASTIC_PORT: 9200
+
+  REDIS_HOST: movies-redis
+  REDIS_PORT: 6379
+
+  AUTH_POSTGRES_DB: $AUTH_POSTGRES_DB
+  AUTH_POSTGRES_HOST: auth-db
+  AUTH_POSTGRES_PORT: 5432
+  AUTH_POSTGRES_USER: $AUTH_POSTGRES_USER
+  AUTH_POSTGRES_PASSWORD: $AUTH_POSTGRES_PASSWORD
+  SENTRY_DSN_AUTH: $SENTRY_DSN_AUTH
+  SENTRY_DSN_UGC: $SENTRY_DSN_UGC
+  AUTH_REDIS_HOST: auth-redis
+  AUTH_REDIS_PORT: 6379
+
+  AUTH_REST_HOST: auth-rest
+  AUTH_REST_PORT: 5001
+
+  KAFKA_HOST: broker
+  KAFKA_PORT: 29092
+  GRPC_CHANNEL_HOST: auth-rest
+  GRPC_CHANNEL_PORT: 50055
+
+  MONGO_HOST: mongos1
+  MONGO_PORT: 27017
+
+  ETL_CONFIG_FILE: /etc/etl_config.yml
+
+
+x-python: &python
+  restart: on-failure
+  environment: *variables
+
+services:
+  movies-db:
+    image: postgres:13
+    environment: *variables
+    volumes:
+      - db-volume:/var/lib/postgresql/data
+      - ./configurator/schema/db_schema.sql:/root/db_schema.sql:ro
+      - ./configurator/schema/wait-for-it.sh:/root/wait-for-it.sh:ro
+
+  auth-db:
+    image: postgres:13
+    environment:
+      <<: *variables
+      POSTGRES_USER: $AUTH_POSTGRES_USER
+      POSTGRES_PASSWORD: $AUTH_POSTGRES_PASSWORD
+      POSTGRES_DB: $AUTH_POSTGRES_DB
+    volumes:
+      - db-auth:/var/lib/postgresql/data
+      - ./configurator/schema/wait-for-it.sh:/root/wait-for-it.sh:ro
+
+  movies-admin-panel:
+    <<: *python
+    build: admin_panel
+    volumes:
+      - static-volume:/static
+    depends_on:
+      - movies-db
+
+  elastic:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+    environment:
+      discovery.type: single-node
+
+  movies-etl:
+    <<: *python
+    environment: *variables
+    build: etl
+    depends_on:
+      - elastic
+      - movies-db
+    volumes:
+      - ./etl/src/config/default.yml:/etc/etl_config.yml:ro
+
+  movies-redis:
+    image: redis:7.0.2
+
+  auth-redis:
+    image: redis:7.0.2
+
+  movies-rest:
+    <<: *python
+    environment:
+      <<: *variables
+      PYTHONPATH: /rest/src
+    build: rest
+    depends_on:
+      - movies-redis
+    healthcheck:
+      test: curl -s -f localhost:8000/api/openapi >/dev/null || exit 1
+      interval: 10s
+      timeout: 3s
+
+  auth-rest:
+    <<: *python
+    environment:
+      <<: *variables
+      FLASK_APP: src/app.py
+      PYTHONPATH: /auth/src
+    build: auth
+    depends_on:
+      - auth-db
+      - auth-redis
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://127.0.0.1:5044
+        tag: auth-rest
+
+  nginx:
+    image: nginx:1.23.0
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/site.conf:/etc/nginx/conf.d/site.conf:ro
+      - static-volume:/data/static:ro
+    depends_on:
+      #      movies-admin-panel:
+      #        condition: service_started
+      auth-rest:
+        condition: service_started
+    #      movies-rest:
+    #        condition: service_healthy
+    #      ugc-rest:
+    #        condition: service_healthy
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://127.0.0.1:5044
+        tag: nginx
+
+  movies-configurator:
+    build: configurator
+    environment: *variables
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.16.3
+    environment:
+      ELASTICSEARCH_HOSTS: http://elastic:9200
+    depends_on:
+      - elastic
+    ports:
+      - 5601:5601
+
+  auth-jaeger:
+    image: jaegertracing/all-in-one:1.32
+    depends_on:
+      - nginx
+
+  ugc-rest:
+    <<: *python
+    environment: *variables
+    build: ugc_api
+    depends_on:
+      - auth-rest
+    healthcheck:
+      test: curl -s -f ugc-rest:8000/ugc/api/openapi >/dev/null || exit 1
+      interval: 10s
+      timeout: 3s
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://127.0.0.1:5044
+        tag: ugc-rest
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.10.2
+    depends_on:
+      - elasticsearch-logs
+    environment:
+      XPACK_MONITORING_ENABLED: "false"
+      ES_HOST: "elasticsearch-logs:9200"
+    ports:
+      - "5044:5044/udp"
+    volumes:
+      - ./logstash/logstash.conf:/config/logstash.conf:ro
+    command: logstash -f /config/logstash.conf
+
+  elasticsearch-logs:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+    environment:
+      discovery.type: single-node
+    ports:
+      - 9201:9200
+    volumes:
+      - ./logstash/tmp/esdata:/tmp/elasticsearch/data
+
+
+  kibana-logs:
+    image: docker.elastic.co/kibana/kibana:7.10.2
+    ports:
+      - "5601:5601"
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch-logs:9200
+    depends_on:
+      - elasticsearch-logs
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: $RABBITMQ_DEFAULT_USER
+      RABBITMQ_DEFAULT_PASS: $RABBITMQ_DEFAULT_PASS
+    volumes:
+      - rabbit-volume:/var/lib/rabbitmq/
+      - ./rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+      - ./rabbitmq/definitions.json:/etc/rabbitmq/definitions.json:ro
+
+
+  notification_workers:
+    build: ./notification/workers
+    depends_on:
+      - rabbitmq
+      - notification_db
+      - notification_email_sender
+    environment:
+      - WAIT_HOSTS=rabbitmq:5672, notification_db:27017, notification_email_sender:50055
+      - RABBITMQ_DEFAULT_USER=$RABBITMQ_DEFAULT_USER
+      - RABBITMQ_DEFAULT_PASS=$RABBITMQ_DEFAULT_PASS
+      - DB_HOST=notification_db
+      - DB_PORT=27017
+      - GRPC_CHANNEL_PORT=50055
+      - GRPC_CHANNEL_HOST=notification_email_sender
+
+
+  notification_email_sender:
+    build: ./notification/email_sender
+    environment:
+      - EMAIL_LOGIN=$EMAIL_LOGIN
+      - EMAIL_PASSWORD=$EMAIL_PASSWORD
+
+
+  notification_db:
+    image: mongo:5.0.7-focal
+    restart: always
+    volumes:
+      - db-notification-volume:/data/db
+
+
+  notification_api:
+    user: "1000:1000"
+    build: notification/notification_api
+    restart: always
+    depends_on:
+      - notification_db
+      - rabbitmq
+    environment:
+      - WAIT_HOSTS=notification_db:27017, rabbitmq:5672
+
+
+  notification_scheduler:
+    build: notification/sheduler
+    depends_on:
+      - notification_db
+      - rabbitmq
+
+
+  admin_notification_api:
+    user: "1000:1000"
+    build: notification/admin
+    environment:
+      - WAIT_HOSTS=notification_db:27017
+      - DB_HOST=notification_db
+      - DB_PORT=27017
+    depends_on:
+      - notification_db
+    volumes:
+      - ./notification/admin/src:/src:rw
+    ports:
+      - "8008:8000"
+
+volumes:
+  db-volume:
+  static-volume:
+  db-auth:
+  rabbit-volume:
+  db-notification-volume:
+
+
+networks:
+  default:
+    name: my-app

@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-extensions = "*"
+django-debug-toolbar = "*"
+django-postgres-extra = "*"
+psycopg2-binary = "*"
+Django = "*"
+django-cors-headers = "*"
+gunicorn = "*"
+
+[dev-packages]
+pylint = "*"
+pycodestyle = "*"
+black = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.10"

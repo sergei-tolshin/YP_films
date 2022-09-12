@@ -1,0 +1,21 @@
+tags:
+  - Auth
+summary: User Authorization
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: username
+    in: header
+    type: string
+    required: true
+  - name: password
+    in: header
+    type: string
+    required: true
+responses:
+  200:
+    description: Access and refresh tokens
+    schema:
+      $ref: '#/definitions/Tokens'
+  401:
+    description: The user name or password is incorrect

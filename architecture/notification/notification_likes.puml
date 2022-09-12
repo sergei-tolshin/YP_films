@@ -1,0 +1,33 @@
+@startuml
+
+
+participant UGC_service as ugc
+participant Notification_Api as api
+participant Scheduler as shed
+participant Mongo as notification_db
+participant RabbitMQ as rabbit
+participant Worker as worker
+participant User_bd as auth_db
+participant Mail_service as mail
+
+autonumber 1
+    ugc -> api: Запрос на рецензию пользователя поставили like (username и film_id)
+    api -> notification_db: Запрос к базе получить документ где username и film_id и last_update > last_send
+    notification_db --> api: Ответ или документ или ничего
+    api -> notification_db: Если документа нет то создать документ с данными username, film_id, last_update, last_send;\n\
+если есть то к данным like прибавить +1, обновить last_update
+    shed -> notification_db: получить все документы где last_update > last_send
+    shed -> auth_db: Узнать timezone пользователя.
+    shed -> shed: Решить допустима ли отправка, если не допустима pass
+    shed -> rabbit: Если допустима отправить в очередь
+    shed -> notification_db: Обновить last_send
+    worker -> rabbit: получает сообщение из очереди
+    worker -> auth_db: Получает данные для переменных шаблона и email
+    worker -> worker: Заполняет шаблона
+    worker -> mail: Отправка сообщения в сервис рассылки
+    mail --> worker: Ответ результата если ОК то Все
+    worker --> rabbit: Если не ОК то отправить в очередь повторной отправки
+
+
+
+@enduml

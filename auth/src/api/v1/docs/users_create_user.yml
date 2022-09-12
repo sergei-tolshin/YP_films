@@ -1,0 +1,36 @@
+tags:
+  - Users
+summary: Create user
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: username
+    in: body
+    type: string
+    required: true
+  - name: first_name
+    in: body
+    type: string
+    required: true
+  - name: last_name
+    in: body
+    type: string
+    required: true
+  - name: birth_date
+    in: body
+    type: string
+    format: date
+    required: true
+  - name: password
+    in: body
+    type: string
+    required: true
+responses:
+  200:
+    description: User created
+    schema:
+      $ref: '#/definitions/User'
+  400:
+    description: username not unique
+  422:
+    description: The request was well-formed but was unable to be followed due to semantic errors.

@@ -1,0 +1,23 @@
+tags:
+  - Roles
+summary: Delete role
+parameters:
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+  - name: role_id
+    in: path
+    type: string
+    format: uuid
+    required: true
+responses:
+  204:
+    description: Role deleted
+  401:
+    description: Not authorized you don't have access yet
+  403:
+    description: User does not having the necessary permissions
+  404:
+    description: Not found
+    

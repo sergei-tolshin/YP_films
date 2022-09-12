@@ -1,0 +1,14 @@
+tags:
+  - Users
+summary: Delete user
+parameters:
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+responses:
+  204:
+    description: User deleted
+  401:
+    description: Not authorized you don't have access yet
+    

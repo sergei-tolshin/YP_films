@@ -1,0 +1,26 @@
+tags:
+  - Users
+summary: Get user info
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: user_id
+    in: path
+    type: string
+    format: uuid
+    required: true
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+responses:
+  200:
+    description: User info
+    schema:
+      $ref: '#/definitions/User_min'
+  401:
+    description: Not authorized you don't have access yet
+  403:
+    description: User does not having the necessary permissions
+  404:
+    description: Not found

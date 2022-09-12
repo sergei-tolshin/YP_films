@@ -1,0 +1,45 @@
+@startgantt
+language ru
+
+Project starts 2022-07-04
+[Разработка ассистента] starts 2022-07-06 and lasts 26 days
+
+[Обсуждение проекта с командой] happens 2022-07-08
+
+-- Подготовка --
+[Составлние ТЗ] starts 2022-07-10 and lasts 1 day and is 100% completed
+[Подготовка схемы архитектуры] starts 2022-07-10 and lasts 1 day and is 100% completed
+[Изучение документации к Алисе] starts 2022-07-11 and lasts 1 day and is 100% completed
+[Выбор технологического стека] starts 2022-07-11 and lasts 1 day and is 100% completed
+[Регистрация навыка] starts 2022-07-11 and lasts 1 day and is 100% completed
+
+-- Начало разработки (MVP проекта)--
+[Разработка core навыка] starts 2022-07-12 and lasts 2 day and is 0% completed
+[Тестирование обмена между Яндекс.Диалог и сервисом навыка] starts 2022-07-13 and lasts 1 day and is 0% completed
+[Развертывание сервиса поиска фильмов] starts 2022-07-13 and lasts 1 day and is 0% completed
+[Разработак хендлера команды "Найди фильм Z?"] starts 2022-07-15 and lasts 2 day and is 0% completed
+[Разработак хендлера команды "Кто автор фильма Х?"] starts 2022-07-14 and lasts 2 day and is 0% completed
+[Разработак хендлера команды "Cколько фильмов выпустил автор Y?"] starts 2022-07-14 and  lasts 2 day and is 0% completed
+[Разработак хендлера команды "Расскажи о фильме X?"]  starts 2022-07-15 and lasts 2 day and is 0% completed
+[Вебинар с экспертом] happens 2022-07-17
+
+-- Добавление новых фичей --
+[Развертывание сервиса авторизации] starts 2022-07-18 and lasts 1 day and is 0% completed
+[Разработка модуля авторизации в навыке] starts 2022-07-18 and lasts 2 day and is 0% completed
+[Развертывание сервиса UGC] starts 2022-07-20 and lasts 1 day and is 0% completed
+[Разработак хендлера команды "Добавь фильм Х в избранное."] starts 2022-07-20 and lasts 2 day and is 0% completed
+[Развертывание сервиса нотификации] starts 2022-07-22 and lasts 1 day and is 0% completed
+[Разработак хендлера команды "Отправь моим друзьям ссылку на фильм Х?"] starts 2022-07-22 and lasts 2 day and is 0% completed
+[Демо перед код-ревьюером] happens 2022-07-24
+
+-- Развертывание на сервере --
+[Настройка Яндекс.Облака] starts 2022-07-25 and lasts 1 day and is 0% completed
+[Развертывание проекта в Яндекс.Облаке] starts 2022-07-26 and lasts 2 day and is 0% completed
+[Тестирование ассистента] starts 2022-07-26 and lasts 4 days and is 0% completed
+
+-- Подготовка к защите --
+[Подготовка презентации проекта] starts 2022-07-28 and lasts 4 day and is 0% completed
+[Защита проекта] starts 2022-08-01 and lasts 7 days and is colored in Red
+
+[.] happens 2022-08-20
+@endgantt

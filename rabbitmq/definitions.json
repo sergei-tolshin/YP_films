@@ -1,0 +1,181 @@
+{
+  "rabbit_version": "3.10.5",
+  "rabbitmq_version": "3.10.5",
+  "product_name": "RabbitMQ",
+  "product_version": "3.10.5",
+  "users": [
+    {
+      "name": "notification_admin",
+      "password_hash": "mY+GJp4J3pzwPbyjQmua3eR0lA8AnghWF/t/hPxgz3xJXgou",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": [
+        "administrator"
+      ],
+      "limits": {}
+    }
+  ],
+  "vhosts": [
+    {
+      "name": "/"
+    }
+  ],
+  "permissions": [
+    {
+      "user": "notification_admin",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
+  "topic_permissions": [],
+  "parameters": [],
+  "global_parameters": [
+    {
+      "name": "internal_cluster_id",
+      "value": "rabbitmq-cluster-id-dvHUMm0dizdCa4ZHC-NJow"
+    }
+  ],
+  "policies": [],
+  "queues": [
+    {
+      "name": "dead_thematic_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-max-length": 50000,
+        "x-overflow": "drop-head",
+        "x-queue-type": "classic"
+      }
+    },
+    {
+      "name": "dead_email_confirm_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-max-length": 50000,
+        "x-overflow": "drop-head",
+        "x-queue-type": "classic"
+      }
+    },
+    {
+      "name": "thematic_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-dead-letter-exchange": "dead_email_notification",
+        "x-max-length": 100000,
+        "x-overflow": "reject-publish",
+        "x-queue-type": "classic"
+      }
+    },
+    {
+      "name": "email_confirm_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-dead-letter-exchange": "dead_email_notification",
+        "x-max-length": 10000,
+        "x-overflow": "reject-publish",
+        "x-queue-type": "classic"
+      }
+    },
+    {
+      "name": "dead_likes_daily_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-max-length": 50000,
+        "x-overflow": "drop-head",
+        "x-queue-type": "classic"
+      }
+    },
+    {
+      "name": "likes_daily_send",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {
+        "x-dead-letter-exchange": "dead_email_notification",
+        "x-max-length": 100000,
+        "x-overflow": "reject-publish",
+        "x-queue-type": "classic"
+      }
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "email_notification",
+      "vhost": "/",
+      "type": "direct",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    },
+    {
+      "name": "dead_email_notification",
+      "vhost": "/",
+      "type": "direct",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    }
+  ],
+  "bindings": [
+    {
+      "source": "dead_email_notification",
+      "vhost": "/",
+      "destination": "dead_email_confirm_send",
+      "destination_type": "queue",
+      "routing_key": "email_confirm",
+      "arguments": {}
+    },
+    {
+      "source": "dead_email_notification",
+      "vhost": "/",
+      "destination": "dead_likes_daily_send",
+      "destination_type": "queue",
+      "routing_key": "likes_daily",
+      "arguments": {}
+    },
+    {
+      "source": "dead_email_notification",
+      "vhost": "/",
+      "destination": "dead_thematic_send",
+      "destination_type": "queue",
+      "routing_key": "thematic",
+      "arguments": {}
+    },
+    {
+      "source": "email_notification",
+      "vhost": "/",
+      "destination": "email_confirm_send",
+      "destination_type": "queue",
+      "routing_key": "email_confirm",
+      "arguments": {}
+    },
+    {
+      "source": "email_notification",
+      "vhost": "/",
+      "destination": "likes_daily_send",
+      "destination_type": "queue",
+      "routing_key": "likes_daily",
+      "arguments": {}
+    },
+    {
+      "source": "email_notification",
+      "vhost": "/",
+      "destination": "thematic_send",
+      "destination_type": "queue",
+      "routing_key": "thematic",
+      "arguments": {}
+    }
+  ]
+}

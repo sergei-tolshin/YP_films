@@ -1,0 +1,17 @@
+tags:
+  - Auth
+summary: Token refresh
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: refresh_token
+    in: cookie
+    type: string
+    required: true
+responses:
+  200:
+    description: Access and refresh tokens
+    schema:
+      $ref: '#/definitions/Tokens'
+  403:
+    description: Token refused

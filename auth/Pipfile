@@ -1,0 +1,46 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pydantic = "*"
+flasgger = "*"
+argon2-cffi = "*"
+redis = "*"
+flask-jwt-extended = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+requests = "*"
+flask-redis = "*"
+flask-pydantic-spec = "*"
+gunicorn = "*"
+orjson = "*"
+click = "*"
+authlib = "*"
+pip = "*"
+install = "*"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+opentelemetry-exporter-jaeger = "*"
+opentelemetry-instrumentation-flask = "*"
+opentelemetry-instrumentation-requests = "*"
+python-dotenv = "*"
+pyyaml = "*"
+ua-parser = "*"
+user-agents = "*"
+grpcio-tools = "*"
+pyjwt = "*"
+python-json-logger = "*"
+sentry-sdk = {extras = ["flask"], version = "*"}
+blinker = "*"
+
+[dev-packages]
+autopep8 = "*"
+pylint-flask-sqlalchemy = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.10"

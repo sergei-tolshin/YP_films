@@ -1,0 +1,32 @@
+slots:
+    movie_title:
+        source: $MovieName
+    movie_type:
+        type: VideoType
+        source: $MovieType
+
+root:
+    %lemma
+    [$Action $MovieType $MovieName]
+
+$Action:
+    %lemma
+    найти
+    искать
+    назвать
+    [рассказать (сюжет)?]
+    сюжет
+$MovieType:
+    $VideoType
+$MovieName:
+    .+
+
+filler:
+    %lemma
+    Алиса
+    о
+    об
+    про
+    мне
+    какой
+    пожалуйста

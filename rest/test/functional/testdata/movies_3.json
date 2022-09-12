@@ -1,0 +1,840 @@
+[
+  {
+    "_index": "movies",
+    "_id": "e5a21648-59b1-4672-ac3b-867bcd64b6ea",
+    "_type": "_doc",
+    "id": "e5a21648-59b1-4672-ac3b-867bcd64b6ea",
+    "imdb_rating": 8.8,
+    "title": "Star Wars Jedi: Fallen Order",
+    "description": "Set shortly after Revenge of the Sith, the player takes on the role of a Jedi padawan being hunted by the Empire after Order 66.",
+    "actors_names": [
+      "Dee Bradley Baker",
+      "Debra Wilson",
+      "Daniel Roebuck",
+      "Cameron Monaghan"
+    ],
+    "writers_names": [
+      "Cheyenne Paulani Morrin",
+      "Jessica Hara Campbell",
+      "Sabine Rosgren",
+      "Matt Michnovetz",
+      "Adnan Chatriwala",
+      "Chris Avellone",
+      "Clayton Hogston",
+      "Megan Fausti",
+      "Todd Piperi",
+      "Stig Asmussen",
+      "Manny Hagopian",
+      "George Lucas",
+      "Aaron Contreras"
+    ],
+    "directors_names": ["Stig Asmussen"],
+    "genres_names": ["Adventure", "Action", "Sci-Fi", "Fantasy"],
+    "genres": [
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" }
+    ],
+    "actors": [
+      {
+        "id": "a3468637-c3c3-442c-892e-1625385c49c6",
+        "name": "Dee Bradley Baker"
+      },
+      { "id": "a9746a65-2b68-42e2-a81f-05bea67ea38e", "name": "Debra Wilson" },
+      {
+        "id": "fbe83382-90a6-438e-9f64-e97f19928b6e",
+        "name": "Daniel Roebuck"
+      },
+      {
+        "id": "901f725a-bb8e-44cb-bf85-8b84797bcd85",
+        "name": "Cameron Monaghan"
+      }
+    ],
+    "writers": [
+      {
+        "id": "4e302ca2-b3e0-4ca6-b70d-b2228ca28188",
+        "name": "Cheyenne Paulani Morrin"
+      },
+      {
+        "id": "8b3730b3-0bb6-440a-84c5-f74da82f02c2",
+        "name": "Jessica Hara Campbell"
+      },
+      {
+        "id": "8e6dcc77-1d4a-46cb-8ce8-0ca1e7735153",
+        "name": "Sabine Rosgren"
+      },
+      {
+        "id": "8c022f6c-6dd0-4e32-95cc-e713f21827d4",
+        "name": "Matt Michnovetz"
+      },
+      {
+        "id": "80310518-46c8-4e37-ba0b-2ceda6f59777",
+        "name": "Adnan Chatriwala"
+      },
+      {
+        "id": "d4099323-4b76-45e6-8b13-9cb5aeee5eb9",
+        "name": "Chris Avellone"
+      },
+      {
+        "id": "fdbd5259-ee9d-4dc8-a837-e650cde1a047",
+        "name": "Clayton Hogston"
+      },
+      { "id": "37bc9a35-5a01-4cf8-b793-e987cbf8a47a", "name": "Megan Fausti" },
+      { "id": "4205f652-6393-493e-91da-67d186d42102", "name": "Todd Piperi" },
+      { "id": "201fb49e-dbe2-410b-b2fe-e066aaceaac3", "name": "Stig Asmussen" },
+      {
+        "id": "740fced0-4362-4ba1-a500-a37daabb3778",
+        "name": "Manny Hagopian"
+      },
+      { "id": "a5a8f573-3cee-4ccc-8a2b-91cb9f55250a", "name": "George Lucas" },
+      {
+        "id": "cbdb2ba5-39c9-4093-b2bd-95f4e62bdb6d",
+        "name": "Aaron Contreras"
+      }
+    ],
+    "directors": [
+      { "id": "201fb49e-dbe2-410b-b2fe-e066aaceaac3", "name": "Stig Asmussen" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "830857b7-64d2-4a95-98c4-b03351daff52",
+    "_type": "_doc",
+    "id": "830857b7-64d2-4a95-98c4-b03351daff52",
+    "imdb_rating": 8.1,
+    "title": "Robot Chicken: Star Wars III",
+    "description": "The Emmy Award-winning Robot Chicken returns with its third send-up of the Star Wars universe! In this all-new hour-long special, four very different characters -- Emperor Palpatine, Darth Vader, Boba Fett and Gary the Stormtrooper -- reveal untold stories that weave and interconnect throughout all six Star Wars films! Set phasers to \"fun\"! Oh wait, that's the wrong franchise.",
+    "actors_names": [
+      "Abraham Benrubi",
+      "Ahmed Best",
+      "Bob Bergen",
+      "Seth Green"
+    ],
+    "writers_names": [
+      "Dan Milano",
+      "Kevin Shinick",
+      "Zeb Wells",
+      "Seth Green",
+      "Douglas Goldstein",
+      "Hugh Sterbakov",
+      "Matthew Senreich",
+      "Geoff Johns",
+      "Tom Root",
+      "Breckin Meyer",
+      "Matthew Ireland Beans",
+      "Mike Fasolo",
+      "Hugh Davidson"
+    ],
+    "directors_names": ["Chris McKay"],
+    "genres_names": ["Animation", "Comedy", "Sci-Fi", "Family"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      {
+        "id": "ed63a508-4f7c-4dc6-84c3-482f4d08a582",
+        "name": "Abraham Benrubi"
+      },
+      { "id": "746b394f-7808-4386-a281-b06504c07b58", "name": "Ahmed Best" },
+      { "id": "a44906b1-3994-492a-9dbc-3d11d3a7a273", "name": "Bob Bergen" },
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" }
+    ],
+    "writers": [
+      { "id": "aa8d115c-aa99-469d-8035-5637f1f03fbf", "name": "Dan Milano" },
+      { "id": "a3487d4e-49f2-4f3e-8951-2c5b0bf7cc0b", "name": "Kevin Shinick" },
+      { "id": "ce3edce4-a7c2-482a-854c-db8dee853ee6", "name": "Zeb Wells" },
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" },
+      {
+        "id": "0d0ff97b-55e6-4ddb-b359-5756de5f7a35",
+        "name": "Douglas Goldstein"
+      },
+      {
+        "id": "7c2cfc02-7b5a-40b7-ab1e-fef6cbc156c8",
+        "name": "Hugh Sterbakov"
+      },
+      {
+        "id": "d5999be7-73a0-4c46-b398-32cb0aba019a",
+        "name": "Matthew Senreich"
+      },
+      { "id": "3aa97f9c-7936-4ee5-a7c6-86f183d9f731", "name": "Geoff Johns" },
+      { "id": "39394052-60a4-4b01-a41b-f443c3125f1c", "name": "Tom Root" },
+      { "id": "9f88e9dd-4983-4878-8d87-3b2597bc9c2d", "name": "Breckin Meyer" },
+      {
+        "id": "ac75ba4b-fa91-4e6d-aef5-b48457e5d3fb",
+        "name": "Matthew Ireland Beans"
+      },
+      { "id": "533054ae-7bfc-48e8-8cb0-2fe18d28431b", "name": "Mike Fasolo" },
+      { "id": "5a1e12da-2c5a-4042-bc73-478cd010bb7c", "name": "Hugh Davidson" }
+    ],
+    "directors": [
+      { "id": "9602de1d-43c4-41b0-ac39-46c42f784c9f", "name": "Chris McKay" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "dc2dbf5d-de5d-4153-a049-51ba44f15e04",
+    "_type": "_doc",
+    "id": "dc2dbf5d-de5d-4153-a049-51ba44f15e04",
+    "imdb_rating": 8.3,
+    "title": "Empire of Dreams: The Story of the 'Star Wars' Trilogy",
+    "description": "This documentary chronicles the making of the original Star Wars trilogy from start to finish. We get some background on George Lucas' start in the business and then continue with the making of Star Wars (1977), Star Wars: Episode V - The Empire Strikes Back (1980) and Star Wars: Episode VI - Return of the Jedi (1983). The visual/special effects and financial problems are explained as well as casting, editing, scoring and releasing the films with tons of archival footage and interviews with plenty of cast & crew members.",
+    "actors_names": [
+      "Robert Clotworthy",
+      "Walter Cronkite",
+      "George Lucas",
+      "Steven Spielberg"
+    ],
+    "writers_names": ["Ed Singer"],
+    "directors_names": ["Edith Becker", "Kevin Burns"],
+    "genres_names": ["Sci-Fi", "History", "Documentary"],
+    "genres": [
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "eb7212a7-dd10-4552-bf7b-7a505a8c0b95", "name": "History" },
+      { "id": "6d141ad2-d407-4252-bda4-95590aaf062a", "name": "Documentary" }
+    ],
+    "actors": [
+      {
+        "id": "a4fca220-a14a-48b4-9d14-927ef502f7e7",
+        "name": "Robert Clotworthy"
+      },
+      {
+        "id": "c21c0c6e-3af1-4bf4-9457-1876bdafbf2c",
+        "name": "Walter Cronkite"
+      },
+      { "id": "a5a8f573-3cee-4ccc-8a2b-91cb9f55250a", "name": "George Lucas" },
+      {
+        "id": "b2d74910-25e3-454f-be47-4d4424d55ecb",
+        "name": "Steven Spielberg"
+      }
+    ],
+    "writers": [
+      { "id": "a8f5d97f-a508-4e6c-8a2c-0606872d46e6", "name": "Ed Singer" }
+    ],
+    "directors": [
+      { "id": "2231ea60-d76e-4ccd-b1f9-ef3d8611e1fb", "name": "Edith Becker" },
+      { "id": "6ff3f36a-3ee7-4bca-94b9-455669a34f5d", "name": "Kevin Burns" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "cc75c41e-c4b4-4544-b70a-2b59f7013744",
+    "_type": "_doc",
+    "id": "cc75c41e-c4b4-4544-b70a-2b59f7013744",
+    "imdb_rating": 7.0,
+    "title": "Fullmetal Alchemist: The Sacred Star of Milos",
+    "description": "In the lost holy land of Milos, the Elrics search for the truth behind an unknown form of alchemy. What secrets are hidden in Milos? Riddles must be solved and dangers faced before the truth can be found.",
+    "actors_names": [
+      "Vic Mignogna",
+      "Matthew Mercer",
+      "Alexis Tipton",
+      "Maxey Whitehead"
+    ],
+    "writers_names": [
+      "Hiromu Arakawa",
+      "Bonny Clinkenbeard",
+      "John Burgmeier",
+      "Y\u00fbichi Shinbo"
+    ],
+    "directors_names": ["Kazuya Murata"],
+    "genres_names": ["Animation", "Adventure", "Sci-Fi", "Action", "Fantasy"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" }
+    ],
+    "actors": [
+      { "id": "cab13487-3392-44bb-9f89-0f43195bc48d", "name": "Vic Mignogna" },
+      {
+        "id": "c2c1ef6b-2267-4a85-9861-1186019f591b",
+        "name": "Matthew Mercer"
+      },
+      { "id": "b3128e98-7724-49c8-840a-b5bcd53629a4", "name": "Alexis Tipton" },
+      {
+        "id": "d8976e05-691e-4dba-afb1-001f79c7649f",
+        "name": "Maxey Whitehead"
+      }
+    ],
+    "writers": [
+      {
+        "id": "63eec3c0-90af-4261-a4b6-e69df158f488",
+        "name": "Hiromu Arakawa"
+      },
+      {
+        "id": "b2c4a624-5ecf-4bbc-8fad-12c5a5a94398",
+        "name": "Bonny Clinkenbeard"
+      },
+      {
+        "id": "2a366456-009b-47b7-a068-3a5ecff8c626",
+        "name": "John Burgmeier"
+      },
+      {
+        "id": "5c41b6ed-4bcc-4f25-a6c9-80981fa9195d",
+        "name": "Y\u00fbichi Shinbo"
+      }
+    ],
+    "directors": [
+      { "id": "0fbae7cb-430e-4a84-a546-da62af69571e", "name": "Kazuya Murata" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "fbe9f7b7-6e83-4ecb-8ddf-f15a505c07e2",
+    "_type": "_doc",
+    "id": "fbe9f7b7-6e83-4ecb-8ddf-f15a505c07e2",
+    "imdb_rating": 5.9,
+    "title": "The Evening Star",
+    "description": "Continuing the story of Aurora Greenway in her latter years. After the death of her daughter, Aurora struggled to keep her family together, but has one grandson in jail, a rebellious granddaughter, and another grandson living just above the poverty line.",
+    "actors_names": [
+      "Shirley MacLaine",
+      "Juliette Lewis",
+      "Miranda Richardson",
+      "Bill Paxton"
+    ],
+    "writers_names": ["Larry McMurtry", "Robert Harling"],
+    "directors_names": ["Robert Harling"],
+    "genres_names": ["Comedy", "Romance", "Drama"],
+    "genres": [
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      {
+        "id": "48fd8018-c9d0-40e2-adcd-afd9cfbd9f02",
+        "name": "Shirley MacLaine"
+      },
+      {
+        "id": "4ff35f35-e577-41b1-aeb6-18be11845e45",
+        "name": "Juliette Lewis"
+      },
+      {
+        "id": "6a6385d8-40c4-47cf-a154-976cde0635ec",
+        "name": "Miranda Richardson"
+      },
+      { "id": "696c2156-5a89-4be3-b322-90ca89f60773", "name": "Bill Paxton" }
+    ],
+    "writers": [
+      {
+        "id": "969205c3-c8b1-40a3-a2ee-19fe19fca8b9",
+        "name": "Larry McMurtry"
+      },
+      { "id": "54ffcc0d-3b43-42cf-8e46-4d04e5123cbe", "name": "Robert Harling" }
+    ],
+    "directors": [
+      { "id": "54ffcc0d-3b43-42cf-8e46-4d04e5123cbe", "name": "Robert Harling" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "523f1a55-51fe-4d3c-a58d-30d8a61bb267",
+    "_type": "_doc",
+    "id": "523f1a55-51fe-4d3c-a58d-30d8a61bb267",
+    "imdb_rating": 5.8,
+    "title": "The Sun Is Also a Star",
+    "description": "A hopeless romantic ambivalent about his future in medical school falls for a hard-luck young woman who doesn't believe in love.",
+    "actors_names": [
+      "Anais Lee",
+      "Yara Shahidi",
+      "John Leguizamo",
+      "Charles Melton"
+    ],
+    "writers_names": ["Tracy Oliver", "Nicola Yoon"],
+    "directors_names": ["Ry Russo-Young"],
+    "genres_names": ["Drama", "Music", "Romance"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "56b541ab-4d66-4021-8708-397762bff2d4", "name": "Music" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" }
+    ],
+    "actors": [
+      { "id": "8d253d20-cbe5-4d35-8378-801ddebe77b8", "name": "Anais Lee" },
+      { "id": "828bd349-45a5-4428-9754-13467884fa88", "name": "Yara Shahidi" },
+      {
+        "id": "17b36cf5-6f85-4f98-a8b5-7ab6eab58d51",
+        "name": "John Leguizamo"
+      },
+      { "id": "7ed70fca-4f3e-40ee-b2dd-fc9e11dc218a", "name": "Charles Melton" }
+    ],
+    "writers": [
+      { "id": "caf06d3f-19dc-4b7d-8aff-c0cbe7b643d0", "name": "Tracy Oliver" },
+      { "id": "54eec180-2bcc-4016-a8d5-13cfcd4a447c", "name": "Nicola Yoon" }
+    ],
+    "directors": [
+      { "id": "8fadd3bf-c272-4b84-be93-0f85f0a0767e", "name": "Ry Russo-Young" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "3cb639db-cd8a-48b0-90e3-9def109a4492",
+    "_type": "_doc",
+    "id": "3cb639db-cd8a-48b0-90e3-9def109a4492",
+    "imdb_rating": 8.2,
+    "title": "Star Wars: The Force Unleashed",
+    "description": "Darth Vader's secret apprentice, codenamed Starkiller, is trained in the Dark Side to defeat the enemies of the Empire, but must find his own path when his master betrays him.",
+    "actors_names": [
+      "Nathalie Cox",
+      "Cully Fredricksen",
+      "Sam Witwer",
+      "David W. Collins"
+    ],
+    "writers_names": [
+      "Shawn Pitman",
+      "Cameron Suey",
+      "Haden Blackman",
+      "John Stafford",
+      "George Lucas"
+    ],
+    "directors_names": [
+      "Haden Blackman",
+      "Darragh O'Farrell",
+      "Steve Stamatiadis",
+      "Martin Stoltz"
+    ],
+    "genres_names": ["Action", "Adventure", "Drama"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      { "id": "8a01bb4e-207f-4549-a3f6-6892b1aac5a9", "name": "Nathalie Cox" },
+      {
+        "id": "338ccbbd-0ae2-4ca5-8ae8-485aad7f27e6",
+        "name": "Cully Fredricksen"
+      },
+      { "id": "319a579c-942a-48a8-afff-2e0490713b2a", "name": "Sam Witwer" },
+      {
+        "id": "2f7b8091-ed2b-4bd9-8813-bb00d686ea8d",
+        "name": "David W. Collins"
+      }
+    ],
+    "writers": [
+      { "id": "cf1a5a06-dc0a-4140-804d-b48c00b378cb", "name": "Shawn Pitman" },
+      { "id": "5cb0b162-e971-43d3-a772-e45f419bd8e1", "name": "Cameron Suey" },
+      {
+        "id": "e73f46a4-cf53-4b12-b5da-52503b6319f7",
+        "name": "Haden Blackman"
+      },
+      { "id": "618486f1-3f4e-43c0-833d-33dadb7090e2", "name": "John Stafford" },
+      { "id": "a5a8f573-3cee-4ccc-8a2b-91cb9f55250a", "name": "George Lucas" }
+    ],
+    "directors": [
+      {
+        "id": "e73f46a4-cf53-4b12-b5da-52503b6319f7",
+        "name": "Haden Blackman"
+      },
+      {
+        "id": "64850209-25a6-49e7-997e-1731f7e898cf",
+        "name": "Darragh O'Farrell"
+      },
+      {
+        "id": "c098fec8-851b-4946-b6bc-c1142236ed12",
+        "name": "Steve Stamatiadis"
+      },
+      { "id": "97051f20-6606-4fcc-a17a-51be704ccedd", "name": "Martin Stoltz" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "68e9a139-976d-4a83-ad1b-e374376814c9",
+    "_type": "_doc",
+    "id": "68e9a139-976d-4a83-ad1b-e374376814c9",
+    "imdb_rating": 6.6,
+    "title": "Star",
+    "description": "A trio of women form a musical group in Atlanta.",
+    "actors_names": [
+      "Brittany O'Grady",
+      "Amiyah Scott",
+      "Ryan Destiny",
+      "Jude Demorest"
+    ],
+    "writers_names": ["Lee Daniels", "Tom Donaghy"],
+    "directors_names": [],
+    "genres_names": ["Music", "Drama", "Musical"],
+    "genres": [
+      { "id": "56b541ab-4d66-4021-8708-397762bff2d4", "name": "Music" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "9c91a5b2-eb70-4889-8581-ebe427370edd", "name": "Musical" }
+    ],
+    "actors": [
+      {
+        "id": "4fee0a46-4db0-4793-a9ab-74c9d0f84a0d",
+        "name": "Brittany O'Grady"
+      },
+      { "id": "3d1c4448-fed0-468d-b519-b5f9d5adb2ec", "name": "Amiyah Scott" },
+      { "id": "293c66bd-cd4d-481d-a589-f53b1c10efb0", "name": "Ryan Destiny" },
+      { "id": "145a5f6d-8ed0-4aa9-a79d-9e79b46fd0c1", "name": "Jude Demorest" }
+    ],
+    "writers": [
+      { "id": "cf7e4508-49ac-4708-8ced-6691d7295be1", "name": "Lee Daniels" },
+      { "id": "86b78210-f206-4952-9d20-b4dba9e1e6bf", "name": "Tom Donaghy" }
+    ],
+    "directors": []
+  },
+  {
+    "_index": "movies",
+    "_id": "2a090dde-f688-46fe-a9f4-b781a985275e",
+    "_type": "_doc",
+    "id": "2a090dde-f688-46fe-a9f4-b781a985275e",
+    "imdb_rating": 9.6,
+    "title": "Star Wars: Knights of the Old Republic",
+    "description": "Four thousand years before the fall of the Republic, before the fall of the Jedi, a great war was fought, between the armies of the Sith and the forces of the Republic. A warrior is chosen to rescue a Jedi with a power important to the cause of the Republic, but in the end, will the warrior fight for the Light Side of the Force, or succumb to the Darkness?",
+    "actors_names": [
+      "Rafael Ferrer",
+      "Raphael Sbarge",
+      "Jennifer Hale",
+      "John Cygan"
+    ],
+    "writers_names": [
+      "Michael Gallo",
+      "Drew Karpyshyn",
+      "Peter Thomas",
+      "Brett Rector",
+      "Lukas Kristjanson",
+      "Lynn Taylor",
+      "David Gaider",
+      "James Ohlen"
+    ],
+    "directors_names": ["Casey Hudson"],
+    "genres_names": ["Action", "Adventure", "Fantasy"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" }
+    ],
+    "actors": [
+      { "id": "578593ee-3268-4cd4-b910-8a44cfd05b73", "name": "Rafael Ferrer" },
+      {
+        "id": "bccbbbb6-be40-44f5-a025-204bcfcf2667",
+        "name": "Raphael Sbarge"
+      },
+      { "id": "00395304-dd52-4c7b-be0d-c2cd7a495684", "name": "Jennifer Hale" },
+      { "id": "2802ff93-f147-49cc-a38b-2f787bd2b875", "name": "John Cygan" }
+    ],
+    "writers": [
+      { "id": "1e8d746d-72d2-4da2-ad20-651154cfb158", "name": "Michael Gallo" },
+      {
+        "id": "63a787ba-dd3f-4176-a894-9970b5c43a12",
+        "name": "Drew Karpyshyn"
+      },
+      { "id": "91c4ca66-e3e1-4932-8447-aadd67fd67b1", "name": "Peter Thomas" },
+      { "id": "f7337af0-21aa-445f-aecf-4794c0faa811", "name": "Brett Rector" },
+      {
+        "id": "1bc82e3e-d9ea-4da0-a5ea-69ba20b94373",
+        "name": "Lukas Kristjanson"
+      },
+      { "id": "b29e255d-644d-4e16-9018-c1bcb49934e5", "name": "Lynn Taylor" },
+      { "id": "8778550c-90c6-4180-a6ac-eba956f0ce59", "name": "David Gaider" },
+      { "id": "61bffbdc-910e-47b9-8b04-43b5f27807b4", "name": "James Ohlen" }
+    ],
+    "directors": [
+      { "id": "1a9e7e1f-393b-455d-a76f-d3ad2b33673e", "name": "Casey Hudson" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "0236282f-8ea5-418e-ab9b-13662a4688a9",
+    "_type": "_doc",
+    "id": "0236282f-8ea5-418e-ab9b-13662a4688a9",
+    "imdb_rating": 6.2,
+    "title": "Buzz Lightyear of Star Command: The Adventure Begins",
+    "description": "After a successful mission in which his partner, Warp Darkmatter, fell in battle, Buzz Lightyear vows never to put another partner at risk and works solo. This vow, however is challenged by Star Command who assigns young Mira Nova to be Warp's replacement over Buzz's objections. In addition, the LGMs suggest he tries a new robot for an assistant while a lowly janitor, Booster, has his dreams of joining the Space Rangers. Together, this group of disparate heroes find they must work together to save the galaxy when Emporer Zurg hatches his grandest scheme for conquest yet.",
+    "actors_names": [
+      "Stephen Furst",
+      "Nicole Sullivan",
+      "Tim Allen",
+      "Larry Miller"
+    ],
+    "writers_names": [
+      "Bill Motz",
+      "Robert Schooley",
+      "Bob Roth",
+      "Mark McCorkle"
+    ],
+    "directors_names": ["Tad Stones"],
+    "genres_names": [
+      "Animation",
+      "Adventure",
+      "Sci-Fi",
+      "Action",
+      "Comedy",
+      "Family"
+    ],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      { "id": "fb6717bf-4be2-4f2f-96d0-e73d995d0ff9", "name": "Stephen Furst" },
+      {
+        "id": "06cf22cd-e7f8-4d1f-9c72-fddc61be084a",
+        "name": "Nicole Sullivan"
+      },
+      { "id": "60e64205-b2a3-403f-a625-78b77cceb267", "name": "Tim Allen" },
+      { "id": "57c0c78d-8c7f-45e9-bee0-f5c940b68f86", "name": "Larry Miller" }
+    ],
+    "writers": [
+      { "id": "948d3351-ee5c-48c2-9553-3acd196e7e6b", "name": "Bill Motz" },
+      {
+        "id": "d9aed3ed-3943-4040-bc9d-1e45f6efcec8",
+        "name": "Robert Schooley"
+      },
+      { "id": "6e50ec85-bd49-45e6-9f2c-cd22a828c973", "name": "Bob Roth" },
+      { "id": "c576f59c-df96-4f8f-901b-44de16ffac6b", "name": "Mark McCorkle" }
+    ],
+    "directors": [
+      { "id": "5e10f380-ac97-4c71-a920-d75b6f2f0b10", "name": "Tad Stones" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "d1099968-805e-4a2b-a2ec-18bbde1201ac",
+    "_type": "_doc",
+    "id": "d1099968-805e-4a2b-a2ec-18bbde1201ac",
+    "imdb_rating": 8.1,
+    "title": "Robot Chicken: Star Wars Episode II",
+    "description": "The second of three Star Wars themed Robot Chicken parodies.",
+    "actors_names": [
+      "Abraham Benrubi",
+      "Ahmed Best",
+      "Bob Bergen",
+      "Seth Green"
+    ],
+    "writers_names": [
+      "Dan Milano",
+      "Kevin Shinick",
+      "Zeb Wells",
+      "Seth Green",
+      "Douglas Goldstein",
+      "Matthew Senreich",
+      "Tom Root",
+      "Breckin Meyer",
+      "Mike Fasolo",
+      "Hugh Davidson"
+    ],
+    "directors_names": ["Seth Green"],
+    "genres_names": ["Animation", "Sci-Fi", "Comedy", "Short", "Family"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395", "name": "Short" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      {
+        "id": "ed63a508-4f7c-4dc6-84c3-482f4d08a582",
+        "name": "Abraham Benrubi"
+      },
+      { "id": "746b394f-7808-4386-a281-b06504c07b58", "name": "Ahmed Best" },
+      { "id": "a44906b1-3994-492a-9dbc-3d11d3a7a273", "name": "Bob Bergen" },
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" }
+    ],
+    "writers": [
+      { "id": "aa8d115c-aa99-469d-8035-5637f1f03fbf", "name": "Dan Milano" },
+      { "id": "a3487d4e-49f2-4f3e-8951-2c5b0bf7cc0b", "name": "Kevin Shinick" },
+      { "id": "ce3edce4-a7c2-482a-854c-db8dee853ee6", "name": "Zeb Wells" },
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" },
+      {
+        "id": "0d0ff97b-55e6-4ddb-b359-5756de5f7a35",
+        "name": "Douglas Goldstein"
+      },
+      {
+        "id": "d5999be7-73a0-4c46-b398-32cb0aba019a",
+        "name": "Matthew Senreich"
+      },
+      { "id": "39394052-60a4-4b01-a41b-f443c3125f1c", "name": "Tom Root" },
+      { "id": "9f88e9dd-4983-4878-8d87-3b2597bc9c2d", "name": "Breckin Meyer" },
+      { "id": "533054ae-7bfc-48e8-8cb0-2fe18d28431b", "name": "Mike Fasolo" },
+      { "id": "5a1e12da-2c5a-4042-bc73-478cd010bb7c", "name": "Hugh Davidson" }
+    ],
+    "directors": [
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "8a96580a-6b7b-422e-b4fb-694eaa269ff7",
+    "_type": "_doc",
+    "id": "8a96580a-6b7b-422e-b4fb-694eaa269ff7",
+    "imdb_rating": 7.4,
+    "title": "The Tin Star",
+    "description": "Veteran bounty-hunter Morg Hickman rides into a town in danger. The sheriff has been killed, and young inexperienced Ben Owens named a temporary replacement until a permanent can be found. Ben wants to be that permanent replacement, so needs to impress the townspeople with his skill. When he finds that Morg was a sheriff for a long time before he became a bounty-hunter, he asks the older man to teach him. Morg thinks that being a sheriff is a foolish goal, but agrees to instruct Ben in handling people, more important to a sheriff than handling a gun.",
+    "actors_names": [
+      "Anthony Perkins",
+      "Betsy Palmer",
+      "Henry Fonda",
+      "Michel Ray"
+    ],
+    "writers_names": ["Dudley Nichols", "Joel Kane", "Barney Slater"],
+    "directors_names": ["Anthony Mann"],
+    "genres_names": ["Western"],
+    "genres": [
+      { "id": "0b105f87-e0a5-45dc-8ce7-f8632088f390", "name": "Western" }
+    ],
+    "actors": [
+      {
+        "id": "6d632920-025b-4e66-aae0-9ba6abaf648c",
+        "name": "Anthony Perkins"
+      },
+      { "id": "035bc2f6-05d3-42a0-b820-bdea903ada05", "name": "Betsy Palmer" },
+      { "id": "ca283661-e10a-49d7-958c-164782cb351c", "name": "Henry Fonda" },
+      { "id": "e2fb90a8-45c5-4dfd-9205-29f74d1ddb03", "name": "Michel Ray" }
+    ],
+    "writers": [
+      {
+        "id": "a2a5cf96-1f78-4742-95c8-e8eeef8974ee",
+        "name": "Dudley Nichols"
+      },
+      { "id": "ad12504e-1bb3-4805-ab87-2e84147e2a64", "name": "Joel Kane" },
+      { "id": "2b841691-00d9-4000-8175-178fd0bb7d5b", "name": "Barney Slater" }
+    ],
+    "directors": [
+      { "id": "28f8edaf-9c20-4fc2-914a-da04c15c88cc", "name": "Anthony Mann" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "7159c8c2-b9a4-410a-965b-1096b8d1e614",
+    "_type": "_doc",
+    "id": "7159c8c2-b9a4-410a-965b-1096b8d1e614",
+    "imdb_rating": 7.4,
+    "title": "The Star Maker",
+    "description": "\"Dottore\" Joe Moretti travels round Sicily doing screen tests for the big Roman studios. He's a conman and takes money or favours for his efforts. Beata, a young illiterate convent girl desperately wants to change her life and falls for him, belatedly he realises his feelings for her. Their love affair is doomed when he's arrested.",
+    "actors_names": [
+      "Franco Scaldati",
+      "Tiziana Lodato",
+      "Sergio Castellitto",
+      "Leopoldo Trieste"
+    ],
+    "writers_names": ["Giuseppe Tornatore", "Fabio Rinaudo"],
+    "directors_names": ["Giuseppe Tornatore"],
+    "genres_names": ["Romance", "Drama"],
+    "genres": [
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      {
+        "id": "a88f14e6-a8e2-4e05-9744-e89fadf960fb",
+        "name": "Franco Scaldati"
+      },
+      {
+        "id": "f142081a-8054-4ec3-ae97-026f8ebdef3e",
+        "name": "Tiziana Lodato"
+      },
+      {
+        "id": "e1d02f5f-bd47-4eb4-a9c3-1f353ffa9e54",
+        "name": "Sergio Castellitto"
+      },
+      {
+        "id": "6d5964ff-e56e-40aa-9e30-6a52ed741e55",
+        "name": "Leopoldo Trieste"
+      }
+    ],
+    "writers": [
+      {
+        "id": "55dc3cfa-0731-42fe-9d7b-6180b00ab712",
+        "name": "Giuseppe Tornatore"
+      },
+      { "id": "c740cb33-df3a-4aeb-b3ad-7e79581d857c", "name": "Fabio Rinaudo" }
+    ],
+    "directors": [
+      {
+        "id": "55dc3cfa-0731-42fe-9d7b-6180b00ab712",
+        "name": "Giuseppe Tornatore"
+      }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "f061235e-779f-4a59-9eaa-fc533c3c0584",
+    "_type": "_doc",
+    "id": "f061235e-779f-4a59-9eaa-fc533c3c0584",
+    "imdb_rating": 8.8,
+    "title": "Star Wars: Battlefront II",
+    "description": "You play as a member of the Clone 501st Legion, the most elite clone trooper attack group, also known as Vader's Fist, and led by Anakin Skywalker/Darth Vader, over the course of the start, the middle, and the end of the Clone Wars, Operation Knightfall, and the key battles of the Galactic Civil War.",
+    "actors_names": [
+      "David Boat",
+      "Corey Burton",
+      "Bob Bergen",
+      "Christina Rumbley"
+    ],
+    "writers_names": ["Matthew Keast"],
+    "directors_names": ["Eric 'Giz' Gewirtz"],
+    "genres_names": ["Action", "Sci-Fi", "Adventure"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" }
+    ],
+    "actors": [
+      { "id": "27601239-80ae-4f84-b9b1-41a823fcb17e", "name": "David Boat" },
+      { "id": "dbedbfbc-67c9-4637-a215-9cc861f3dd0b", "name": "Corey Burton" },
+      { "id": "a44906b1-3994-492a-9dbc-3d11d3a7a273", "name": "Bob Bergen" },
+      {
+        "id": "f9fc0863-76af-43c1-b895-ee8868726760",
+        "name": "Christina Rumbley"
+      }
+    ],
+    "writers": [
+      { "id": "dcf0da5f-aec9-4643-a6b0-b2447f1c4b49", "name": "Matthew Keast" }
+    ],
+    "directors": [
+      {
+        "id": "ff39031a-6ff3-42b8-b494-30ec47f3f722",
+        "name": "Eric 'Giz' Gewirtz"
+      }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "5c4ed86e-021e-44ef-b899-5db849ed343f",
+    "_type": "_doc",
+    "id": "5c4ed86e-021e-44ef-b899-5db849ed343f",
+    "imdb_rating": 6.3,
+    "title": "9-1-1: Lone Star",
+    "description": "A New York firefighter relocates to Austin, Texas with his son, where he works to save people's lives while trying to solve his own personal problems.",
+    "actors_names": [
+      "Liv Tyler",
+      "Sierra Aylina McClain",
+      "Ronen Rubinstein",
+      "Rob Lowe"
+    ],
+    "writers_names": ["Ryan Murphy", "Brad Falchuk", "Tim Minear"],
+    "directors_names": [],
+    "genres_names": ["Drama"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      { "id": "254b54a2-1b1d-42d3-bac2-11a11ebae8d4", "name": "Liv Tyler" },
+      {
+        "id": "aad519f9-dfdf-4d82-bf91-ab0b1ce580d8",
+        "name": "Sierra Aylina McClain"
+      },
+      {
+        "id": "fd96fd83-c2e1-49c6-a68a-ea1b1b00e1db",
+        "name": "Ronen Rubinstein"
+      },
+      { "id": "e988742c-8b07-4e97-846f-8bceaea21f8f", "name": "Rob Lowe" }
+    ],
+    "writers": [
+      { "id": "756fd830-33a3-4ee0-ba89-848e001332b0", "name": "Ryan Murphy" },
+      { "id": "98738cef-81a9-46cb-a606-1223baad2a60", "name": "Brad Falchuk" },
+      { "id": "89664e96-2bc8-407d-84eb-6390c4861948", "name": "Tim Minear" }
+    ],
+    "directors": []
+  }
+]
+

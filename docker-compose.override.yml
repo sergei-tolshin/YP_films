@@ -1,0 +1,86 @@
+version: "3.9"
+
+services:
+  movies-rest:
+    build:
+      target: dev
+    volumes:
+      - ./rest:/rest
+    ports:
+      - 8000:8000
+    command: [ "python", "src/main.py" ]
+
+  movies-etl:
+    build:
+      target: dev
+    volumes:
+      - ./etl:/etl
+
+  elastic:
+    ports:
+      - 9200:9200
+
+  movies-db:
+    ports:
+      - 5432:5432
+
+  movies-redis:
+    ports:
+      - 6379:6379
+
+  auth-redis:
+    ports:
+      - 6380:6379
+
+  auth-db:
+    ports:
+      - 5435:5432
+
+  auth-rest:
+    build:
+      target: dev
+    volumes:
+      - ./auth:/auth
+    ports:
+      - 5001:5000
+      - 50055:50055
+
+  auth-jaeger:
+    image: jaegertracing/all-in-one:1.32
+    depends_on:
+      - nginx
+    ports:
+      - 6831:6831/udp
+      - 16686:16686
+
+  ugc-rest:
+    build:
+      target: dev
+    volumes:
+      - ./ugc_api:/ugc_api
+    ports:
+      - 8001:8000
+    command: [ "python", "src/main.py" ]
+
+  notification_api:
+    volumes:
+      - ./notification/notification_api/src:/src:rw
+    ports:
+      - "8002:8000"
+
+  notification_workers:
+    build:
+      target: dev
+    volumes:
+      - ./notification/workers:/workers
+
+  rabbitmq:
+    ports:
+      - 5672:5672
+      - 15672:15672
+
+
+  notification_db:
+    ports:
+      - 27018:27017
+

@@ -1,0 +1,21 @@
+tags:
+  - Roles
+summary: Get all roles list
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+responses:
+  200:
+    description: All roles
+    schema:
+      type: array
+      items:
+        $ref: '#/definitions/Role'
+  401:
+    description: Not authorized you don't have access yet
+  403:
+    description: User not having the necessary permissions

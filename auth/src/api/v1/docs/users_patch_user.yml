@@ -1,0 +1,33 @@
+tags:
+  - Users
+summary: Change user info
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+  - name: first_name
+    in: body
+    type: string
+  - name: last_name
+    in: body
+    type: string
+  - name: birth_date
+    in: body
+    type: string
+    format: date
+  - name: password
+    in: body
+    type: string
+    required: true
+responses:
+  200:
+    description: User patched
+    schema:
+      $ref: '#/definitions/User'
+  401:
+    description: Not authorized you don't have access yet
+  422:
+    description: The request was well-formed but was unable to be followed due to semantic errors.

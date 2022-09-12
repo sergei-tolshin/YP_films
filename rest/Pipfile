@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aioredis = "*"
+elasticsearch = {extras = ["async"], version = "*"}
+fastapi = "*"
+orjson = "*"
+uvicorn = {extras = ["standart"], version = "*"}
+backoff = "*"
+gunicorn = "*"
+pyyaml = "*"
+pydantic = {extras = ["dotenv"], version = "*"}
+
+[dev-packages]
+pylint = "*"
+pycodestyle = "*"
+pytest = "*"
+black = "*"
+pylint-quotes = "*"
+pytest-asyncio = "*"
+pylint-pytest = "*"
+aiofiles = "*"
+types-pyyaml = "*"
+
+[requires]
+python_version = "3.10"

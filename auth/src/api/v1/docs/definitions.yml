@@ -1,0 +1,52 @@
+Tokens:
+  type: object
+  properties:
+    access_token:
+      type: string
+    refresh_token:
+      type: string
+Role:
+  type: object
+  properties:
+    id:
+      type: string
+      format: uuid
+    name:
+      type: string
+User:
+  type: object
+  properties:
+    uuid:
+      type: string
+      format: uuid
+    username:
+      type: string
+    email:
+      type: string
+      format: email
+    first_name:
+      type: string
+    last_name:
+      type: string
+    birth_date:
+      type: string
+      format: date
+User_min:
+  type: object
+  properties:
+    username:
+      type: string
+    first_name:
+      type: string
+    last_name:
+      type: string
+History:
+  type: object
+  properties:
+    datetime:
+      type: string
+      format: date-time
+    device:
+      type: string
+    location:
+      type: string

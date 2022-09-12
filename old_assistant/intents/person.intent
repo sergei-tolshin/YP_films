@@ -1,0 +1,31 @@
+slots:
+    title:
+        source: $MovieName
+    type:
+        type: VideoType
+        source: $MovieType
+    person:
+        type: Person
+        source: $MoviePerson
+    
+
+root:
+    [($Action)* $MoviePerson ($MovieType)* ($MovieName)*]
+$Action:
+    %lemma
+    найти
+    назвать
+    рассказать
+
+$MoviePerson:
+    $Person
+$MovieType:
+    $VideoType
+$MovieName:
+    .+
+
+filler:
+    %lemma
+    кто
+    был
+    в

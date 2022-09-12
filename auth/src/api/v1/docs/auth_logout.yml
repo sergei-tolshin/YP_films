@@ -1,0 +1,20 @@
+tags:
+  - Auth
+summary: User logout
+parameters:
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+  - name: refresh_token
+    in: cookie
+    type: string
+    required: true
+  - name: logout_all
+    in: body
+    required: false
+responses:
+  200:
+    description: Logout success
+  401:
+    description: Not authorized you don't have access yet

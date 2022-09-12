@@ -1,0 +1,46 @@
+@startuml
+skinparam componentStyle rectangle
+
+actor Пользователь as Client
+actor Администратор as Admin
+
+component NGINX as NGINX1
+component NGINX as NGINX2
+
+
+package "Admin_panel" {
+component Django_app as Django
+database PostgresSQL as Film_DB
+}
+
+package "REST" {
+component ETL_PostgresSQL_Elastic as ETL_PG_TO_ES
+component Fast_API_app as FastApi
+database ElasticSearch
+database Redis as Redis_fast_api
+}
+
+package "Auth" {
+component Flask_Auth_service as Flask
+database PostgresSQL as Auth_DB
+database Redis as Redis_flask_api
+}
+
+
+Admin --> NGINX1
+NGINX1 -right-> Django
+Django --> Film_DB
+
+ETL_PG_TO_ES --> Film_DB
+ETL_PG_TO_ES --> ElasticSearch
+FastApi --> ElasticSearch
+FastApi --> Redis_fast_api
+Client --> NGINX2
+NGINX2 --> FastApi
+FastApi -right-> Flask
+
+Flask --> Auth_DB
+Flask --> Redis_flask_api
+NGINX2 --> Flask
+
+@enduml

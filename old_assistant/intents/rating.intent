@@ -1,0 +1,23 @@
+slots:
+    title:
+        source: $MovieName
+    type:
+        type: VideoType
+        source: $MovieType
+
+root:
+    [$Rating $MovieType ($MovieName)*]
+
+$Rating:
+    %lemma
+    рейтинг
+
+$MovieType:
+    $VideoType
+$MovieName:
+    .+
+
+filler:
+    %lemma
+    Алиса
+    какой

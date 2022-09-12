@@ -1,0 +1,13 @@
+not_found:
+  film:
+    item: 'Film not found. :-['
+    list: 'Films list is empty. :('
+  genre:
+    item: 'Genre not found. :-['
+    list: 'Genres list is empty. :('
+  person:
+    item: 'Person not found. :-['
+    list: 'Persons list is empty. :('
+forbidden:
+  film:
+    item: 'You do not have min permission level'

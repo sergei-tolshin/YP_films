@@ -1,0 +1,23 @@
+@startuml
+
+participant Auth_bd as auth_db
+participant Auth_service as Auth
+participant Notification_Api as Api
+participant RabbitMQ as rabbit
+participant Worker as worker
+participant User_bd as auth_db
+participant Mail_service as mail
+
+autonumber 1
+    Auth -> Api: Запрос подтверждения email
+    Api -> rabbit: Поставить в очередь на отправку
+    worker -> rabbit: получает сообщение из очереди
+    worker -> auth_db: Получает данные для переменных шаблона и email
+    worker -> worker: Заполняет шаблона
+    worker -> mail: Отправка сообщения в сервис рассылки
+    mail --> worker: Ответ результата если ОК то Все
+    worker --> rabbit: Если не ОК то отправить в очередь повторной отправки
+
+
+
+@enduml

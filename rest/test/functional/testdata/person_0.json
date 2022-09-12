@@ -1,0 +1,3371 @@
+[
+  {
+    "_index": "person",
+    "_id": "142dd99d-e64c-46cd-a1d0-996a1ea8341b",
+    "_type": "_doc",
+    "id": "142dd99d-e64c-46cd-a1d0-996a1ea8341b",
+    "full_name": "Nick Swardson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8856053e-8a4f-42e1-bb27-6ab8fd664518",
+    "_type": "_doc",
+    "id": "8856053e-8a4f-42e1-bb27-6ab8fd664518",
+    "full_name": "Justin Lin",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["b1f1e8a6-e310-47d9-a93c-6a7b192bac0e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "59674337-e77d-422b-967c-aa01017af7c3",
+    "_type": "_doc",
+    "id": "59674337-e77d-422b-967c-aa01017af7c3",
+    "full_name": "Lawrence Konner",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["511b8ae8-f59d-450e-b9a2-22aabba2693b"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "fc9f27d2-aaee-46e6-b263-40ec8d2dd355",
+    "_type": "_doc",
+    "id": "fc9f27d2-aaee-46e6-b263-40ec8d2dd355",
+    "full_name": "LeVar Burton",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "edb9d4d9-0e13-476c-960c-26f97f264ecb",
+          "d1e24e68-1c00-4d81-8dff-9d126c1a6a5e",
+          "cb91931a-27b2-4540-8d42-702c1df77c29",
+          "196804b8-a035-4fbe-afa4-59ccdfde8d65",
+          "74429db7-22b1-4c93-a71d-44b3ee1ffc11",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "d38bced9-f39d-47b5-ad4c-5052d76c0246",
+          "06bd9964-5617-460b-a1bf-74542e89fe43",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "08c25ef9-cbd3-4368-8887-9ef884334750",
+          "cc917adf-6327-4773-bc21-936995f84391",
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "b1384a92-f7fe-476b-b90b-6cec2b7a0dce",
+          "499987ef-5dde-481d-bd95-30ef26937894"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "972c86a5-16f4-432b-b9b3-54965291ddb0",
+    "_type": "_doc",
+    "id": "972c86a5-16f4-432b-b9b3-54965291ddb0",
+    "full_name": "Brent Spiner",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "d1e24e68-1c00-4d81-8dff-9d126c1a6a5e",
+          "8a9981d0-98c4-447a-9709-742fe7f6d9dc",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "8aa504f7-a35b-4d79-bd56-35ef7fc17080",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "9d284e83-21f0-4073-aac0-4abee51193d8"
+        ]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["50d842be-bcda-401e-90de-b06929611ce0"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a5a8f573-3cee-4ccc-8a2b-91cb9f55250a",
+    "_type": "_doc",
+    "id": "a5a8f573-3cee-4ccc-8a2b-91cb9f55250a",
+    "full_name": "George Lucas",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "6cb927b3-4760-46c8-9002-ff4a47d57a4a",
+          "5c612da0-9c15-48db-b46e-e6c82b071a9b",
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "73ecd1e6-6326-405a-b51b-69008f383b72",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "f241a62c-2157-432a-bbeb-9c579c8bc18b",
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "b503ced6-fff1-493a-ad41-73449b55ffee",
+          "5d62b55c-1ed5-4563-ae80-10c4baa21a36",
+          "e99620fb-11bb-481b-8702-a14efa6bb0ef",
+          "12a8279d-d851-4eb9-9d64-d690455277cc",
+          "92dcddff-a70e-497c-92dc-0da12d1d528a",
+          "0659e0e6-504e-4482-8aa9-f7530f36cae2",
+          "c4c5e3de-c0c9-4091-b242-ceb331004dfd",
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "daae47e4-cbd0-4ffd-a150-55201b357d5b",
+          "dcab54f1-6958-4699-b3f5-2fb92c185b33",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "991d143e-1342-4f7c-abf0-a9ede3abba20",
+          "e5a21648-59b1-4672-ac3b-867bcd64b6ea",
+          "6313d0f5-e6a6-4071-a0c2-3d737fd1d56d",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7",
+          "c35dc09c-8ace-46be-8941-7e50b768ec33",
+          "57beb3fd-b1c9-4f8a-9c06-2da13f95251c",
+          "64aa7000-698f-4332-b52f-9469e4d44ee1",
+          "f553752e-71c7-4ea0-b780-41408516d0f4",
+          "118fd71b-93cd-4de5-95a4-e1485edad30e",
+          "c8f57f93-b02a-40d4-ba55-9600cceddd7e",
+          "d6a7409f-87cd-49d7-8803-951a7352c2ce",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59",
+          "75609cee-bc87-493d-8c1f-32c7e8ccc368",
+          "48495445-f04d-4d4c-9249-1faa28fc64eb",
+          "3b914679-1f5e-4cbd-8044-d13d35d5236c",
+          "cd19b384-babd-4b0c-ba0a-5c272bcf0238",
+          "3cb639db-cd8a-48b0-90e3-9def109a4492",
+          "983e0b41-dd17-4fd6-b4e7-771f975fdc19",
+          "88faa02d-f26f-40a1-9cc6-8045ed08d51e",
+          "a8f6bd5b-036a-4d79-b952-3c7b5aa3ea83"
+        ]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "3b1d0e70-42e5-4c9b-98cf-2681c420a99b",
+          "3a28f10a-433e-431c-8e7b-cc3f90af5a41",
+          "19babc93-62f5-481a-b6fe-9ebfef689cbc",
+          "943946ed-4a2b-4c71-8e0b-a58a11bd1323",
+          "dc2dbf5d-de5d-4153-a049-51ba44f15e04",
+          "3ba6c11a-0db6-4144-bc9d-c7e04b817dd2"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "c4c5e3de-c0c9-4091-b242-ceb331004dfd",
+          "f241a62c-2157-432a-bbeb-9c579c8bc18b",
+          "3b914679-1f5e-4cbd-8044-d13d35d5236c",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "fe2b0699-b5ac-437a-9a69-e747b11eb641",
+    "_type": "_doc",
+    "id": "fe2b0699-b5ac-437a-9a69-e747b11eb641",
+    "full_name": "Andrew Dice Clay",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "2361a041-709b-41c7-b34f-9d9142744085",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9ebe3458-ff62-4316-be93-18777e1ba782",
+    "_type": "_doc",
+    "id": "9ebe3458-ff62-4316-be93-18777e1ba782",
+    "full_name": "Don Johnson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e039eedf-4daf-452a-bf92-a0085c68e156",
+    "_type": "_doc",
+    "id": "e039eedf-4daf-452a-bf92-a0085c68e156",
+    "full_name": "Peter Cushing",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "73ecd1e6-6326-405a-b51b-69008f383b72",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "4a416628-4a36-431c-9121-513674dae840",
+    "_type": "_doc",
+    "id": "4a416628-4a36-431c-9121-513674dae840",
+    "full_name": "Zoe Saldana",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "b1f1e8a6-e310-47d9-a93c-6a7b192bac0e",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b4e1b2bd-7f36-4322-8a96-0baecf121424",
+    "_type": "_doc",
+    "id": "b4e1b2bd-7f36-4322-8a96-0baecf121424",
+    "full_name": "Grey Griffin",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "d6a7409f-87cd-49d7-8803-951a7352c2ce",
+          "e44b50ef-485f-46ca-973c-4c78c94b6f73",
+          "9402098b-9a43-459b-85dd-2617813955b8",
+          "96198bec-04bf-4ac7-9538-cbf40d1e25db",
+          "ea434935-cb62-4012-9138-be74435890cd",
+          "fdfc8266-5ece-4d85-b614-3cfe9be97b71",
+          "703d7f37-2933-436e-826e-0b192601e198",
+          "ed2fb2c4-faea-4d1c-b1e0-a49973e21698",
+          "044beafe-fe25-4edc-95f4-adbb8979c35b",
+          "3aba7aa0-8930-417c-bf78-3df596c3f062",
+          "ec8bad1c-7643-49b3-93b5-cee9c8c1e602"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "3217bc91-bcfc-44eb-a609-82d228115c50",
+    "_type": "_doc",
+    "id": "3217bc91-bcfc-44eb-a609-82d228115c50",
+    "full_name": "Lawrence Kasdan",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "57beb3fd-b1c9-4f8a-9c06-2da13f95251c",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "64aa7000-698f-4332-b52f-9469e4d44ee1",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657"
+        ]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["835dcbe5-2bbc-40a3-8980-eb5605f0e3bf"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "3214cf58-8dbf-40ab-9185-77213933507e",
+    "_type": "_doc",
+    "id": "3214cf58-8dbf-40ab-9185-77213933507e",
+    "full_name": "Richard Marquand",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["025c58cd-1b7e-43be-9ffb-8571a613579b"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "33eb3b88-69f2-4f38-a26d-ff32f1feb1a1",
+    "_type": "_doc",
+    "id": "33eb3b88-69f2-4f38-a26d-ff32f1feb1a1",
+    "full_name": "Ron Howard",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "88a99b4d-4d06-4754-b06c-93217cf53244",
+    "_type": "_doc",
+    "id": "88a99b4d-4d06-4754-b06c-93217cf53244",
+    "full_name": "Rick Berman",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "e79b49dc-a5d9-46ec-a2c6-4cead985d732",
+          "47050db6-580f-493c-a007-a11c8768ce1b",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "de5347cf-a70d-430f-8005-786326e28794",
+          "a144d250-6667-47e4-94bd-0ee59c0dc05f",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "9d284e83-21f0-4073-aac0-4abee51193d8"
+        ]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "edb9d4d9-0e13-476c-960c-26f97f264ecb",
+          "27e04b56-0d99-48d6-9600-557623985039",
+          "e79b49dc-a5d9-46ec-a2c6-4cead985d732",
+          "7f6d5e54-ee65-41ef-b4a5-bd83b6cafd56"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "959d148c-022b-427f-a68b-bbe58674fe65",
+    "_type": "_doc",
+    "id": "959d148c-022b-427f-a68b-bbe58674fe65",
+    "full_name": "Eric Bana",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "5ebdd8a8-f324-4546-9126-5a24b63089ad",
+          "5edfd118-fc47-4aac-af3b-3f658e38c824",
+          "4e9f5f72-aa45-4c5a-965b-fc9cf42c4299",
+          "e3f52dc7-721c-453c-adab-53ae26bd88a1",
+          "a99bbda2-d244-4b38-b32c-761248fb0bf2",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "075587eb-91c1-4629-adcb-67c516cdb6eb",
+          "eb592ca7-7aa8-44ac-a59b-1ffcd0b78960"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a1758395-9578-41af-88b8-3f9456e6d938",
+    "_type": "_doc",
+    "id": "a1758395-9578-41af-88b8-3f9456e6d938",
+    "full_name": "J.J. Abrams",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "4e9f5f72-aa45-4c5a-965b-fc9cf42c4299",
+          "24ef3514-6def-46ff-bf8e-c9bb91aafdfd",
+          "a99bbda2-d244-4b38-b32c-761248fb0bf2",
+          "1dcfed00-a0a1-4042-9811-66d7eb5d94bb",
+          "86607a8f-bc90-47fa-8261-15647186cbf5",
+          "075587eb-91c1-4629-adcb-67c516cdb6eb",
+          "49908121-c711-44ee-b447-84288b3b5e34",
+          "eb592ca7-7aa8-44ac-a59b-1ffcd0b78960",
+          "1d42ceae-9397-475c-9517-e94dda7bc2a1"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394"
+        ]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9758b894-57d7-465d-b657-c5803dd5b7f7",
+    "_type": "_doc",
+    "id": "9758b894-57d7-465d-b657-c5803dd5b7f7",
+    "full_name": "William Shatner",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "19867a14-5e9e-481c-ab25-10f386a6faef",
+          "db5dcded-29da-4c96-91a2-df1407f0a80a",
+          "fe758dd4-9063-42d4-bf08-bdc7dbae3479",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "eda3be8d-d0bd-4cf6-84ed-7bf80c371605",
+          "53ce35b8-7a0e-49a3-a2e4-4abc51d8d257",
+          "3beffb27-9dad-4b5d-9845-220ed9cd22fc",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "daa33ede-ee33-4da9-93b9-cc3819b04358",
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70",
+          "62bb2379-5017-421a-9030-1f3f7bb51c9c",
+          "dceab335-df68-4ee5-8b8d-6fb8d9a68041",
+          "2bfc0f50-7a88-4d4c-bbf8-f839c6150e7e"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": ["82297925-80cc-4c47-b6cf-6b5e06e23b70"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "3b53cdf1-1acd-4837-b179-9e4c839c607e",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "dd73742c-efa5-41e8-a824-9013b099f8d5",
+    "_type": "_doc",
+    "id": "dd73742c-efa5-41e8-a824-9013b099f8d5",
+    "full_name": "Henry Gilroy",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c05da398-b37e-4993-8ad2-6bfd290c28ce",
+    "_type": "_doc",
+    "id": "c05da398-b37e-4993-8ad2-6bfd290c28ce",
+    "full_name": "Robert Duncan McNeill",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["de5347cf-a70d-430f-8005-786326e28794"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "26e83050-29ef-4163-a99d-b546cac208f8",
+    "_type": "_doc",
+    "id": "26e83050-29ef-4163-a99d-b546cac208f8",
+    "full_name": "Mark Hamill",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "b6b8a3b7-1c12-45a8-9da7-4b20db8867df",
+          "3a28f10a-433e-431c-8e7b-cc3f90af5a41",
+          "3b1d0e70-42e5-4c9b-98cf-2681c420a99b",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "943946ed-4a2b-4c71-8e0b-a58a11bd1323",
+          "c7bd11a4-30bf-4077-a618-97c3e5525427",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d",
+          "dbb9b244-483b-4592-9194-4938338419bc",
+          "12a8279d-d851-4eb9-9d64-d690455277cc",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": ["d4b010a5-2648-4850-b15d-307658020923"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6960e2ca-889f-41f5-b728-1e7313e54d6c",
+    "_type": "_doc",
+    "id": "6960e2ca-889f-41f5-b728-1e7313e54d6c",
+    "full_name": "Gene Roddenberry",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "b1f1e8a6-e310-47d9-a93c-6a7b192bac0e",
+          "e79b49dc-a5d9-46ec-a2c6-4cead985d732",
+          "68bd16e6-754d-4eb7-95f1-4ee532b88b1c",
+          "cab78c14-7872-4e6b-b048-deb24e8da1ef",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "107dac30-6c1c-4857-a937-682a6f0cccb0",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3",
+          "3b53cdf1-1acd-4837-b179-9e4c839c607e",
+          "cb91931a-27b2-4540-8d42-702c1df77c29",
+          "d2d9b15d-a134-446a-af51-eb8c5207fd46",
+          "08c25ef9-cbd3-4368-8887-9ef884334750",
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70",
+          "b1384a92-f7fe-476b-b90b-6cec2b7a0dce",
+          "ef74f021-4276-4747-8524-b428a7df787a",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "dceab335-df68-4ee5-8b8d-6fb8d9a68041",
+          "21d3123e-76f1-41eb-871a-706debe7b243",
+          "94ca979d-8a5f-433d-93f1-076fdb838eed",
+          "f8dd9e27-8b53-4579-b585-94510d705bd3",
+          "db5dcded-29da-4c96-91a2-df1407f0a80a",
+          "d38bced9-f39d-47b5-ad4c-5052d76c0246",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "4090e081-2cad-4016-a8a9-cb15f38db64c",
+          "2bfc0f50-7a88-4d4c-bbf8-f839c6150e7e"
+        ]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["460d5dba-7973-49d5-a790-c749febac3a8"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "d67afc96-b9ed-4c91-9507-ffc2018c58d7",
+    "_type": "_doc",
+    "id": "d67afc96-b9ed-4c91-9507-ffc2018c58d7",
+    "full_name": "Michael Piller",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["e79b49dc-a5d9-46ec-a2c6-4cead985d732"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "e79b49dc-a5d9-46ec-a2c6-4cead985d732",
+          "de5347cf-a70d-430f-8005-786326e28794",
+          "a144d250-6667-47e4-94bd-0ee59c0dc05f"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5ac68e18-a84c-4a98-a2ba-85d1bc85e0a4",
+    "_type": "_doc",
+    "id": "5ac68e18-a84c-4a98-a2ba-85d1bc85e0a4",
+    "full_name": "William A. Wellman",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "ddbc2fc3-389e-419f-a8fa-59e6cee10802",
+          "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d",
+          "045f2518-5c38-48df-9c48-639520ab57af"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "045f2518-5c38-48df-9c48-639520ab57af",
+          "68dfb5e2-7014-4738-a2da-c65bd41f5af5"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "82b7dffe-6254-4598-b6ef-5be747193946",
+    "_type": "_doc",
+    "id": "82b7dffe-6254-4598-b6ef-5be747193946",
+    "full_name": "Alex Kurtzman",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "cc397479-a5f8-488f-bd7f-7fbb94ec6e18",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "c9e1f6f0-4f1e-4a76-92ee-76c1942faa97",
+          "020adfa7-7251-4fb9-b6db-07b60664cb67",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "a9ee0b3f-ec56-4107-9b6d-0458dfa3f415"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b5bd857a-829a-4fca-9ce0-e5b455032057",
+    "_type": "_doc",
+    "id": "b5bd857a-829a-4fca-9ce0-e5b455032057",
+    "full_name": "Brian Narelle",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "f24f3fa4-2e42-4dde-be8c-2aba541a593b",
+    "_type": "_doc",
+    "id": "f24f3fa4-2e42-4dde-be8c-2aba541a593b",
+    "full_name": "Joan Didion",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c358242d-2dd3-4fd4-afa7-dc187854a59b",
+    "_type": "_doc",
+    "id": "c358242d-2dd3-4fd4-afa7-dc187854a59b",
+    "full_name": "David Spade",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b6cbdda5-049b-4cfe-b393-fdca28688022",
+    "_type": "_doc",
+    "id": "b6cbdda5-049b-4cfe-b393-fdca28688022",
+    "full_name": "Stephen Mendillo",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5a3d0299-2df2-4070-9fda-65ff4dfa863c",
+    "_type": "_doc",
+    "id": "5a3d0299-2df2-4070-9fda-65ff4dfa863c",
+    "full_name": "Leonard Nimoy",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "19867a14-5e9e-481c-ab25-10f386a6faef",
+          "9e1ec2e3-336e-4b9f-a6e0-f93c2ea9ee6d",
+          "53ce35b8-7a0e-49a3-a2e4-4abc51d8d257",
+          "15504dc5-e5ec-445e-bc84-98f928eeae70",
+          "575f6909-fc51-4d64-a7b8-9d236b374191",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3",
+          "5ebdd8a8-f324-4546-9126-5a24b63089ad",
+          "5edfd118-fc47-4aac-af3b-3f658e38c824",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70",
+          "daa33ede-ee33-4da9-93b9-cc3819b04358",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "dceab335-df68-4ee5-8b8d-6fb8d9a68041",
+          "db5dcded-29da-4c96-91a2-df1407f0a80a",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "62bb2379-5017-421a-9030-1f3f7bb51c9c",
+          "2bfc0f50-7a88-4d4c-bbf8-f839c6150e7e"
+        ]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6b02aa9b-87f1-4c38-ad33-8b125bd29781",
+    "_type": "_doc",
+    "id": "6b02aa9b-87f1-4c38-ad33-8b125bd29781",
+    "full_name": "John Carpenter",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["76f3ace1-f126-4fc8-98ac-5d48e0352d14"]
+      },
+      {
+        "role": "director",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b5d2b63a-ed1f-4e46-8320-cf52a32be358",
+    "_type": "_doc",
+    "id": "b5d2b63a-ed1f-4e46-8320-cf52a32be358",
+    "full_name": "Carrie Fisher",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "f241a62c-2157-432a-bbeb-9c579c8bc18b",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "12a8279d-d851-4eb9-9d64-d690455277cc",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7a852205-2bf6-4b75-b3b2-8a46ed6e91ef",
+    "_type": "_doc",
+    "id": "7a852205-2bf6-4b75-b3b2-8a46ed6e91ef",
+    "full_name": "Emilia Clarke",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "efdd1787-8871-4aa9-b1d7-f68e55b913ed",
+    "_type": "_doc",
+    "id": "efdd1787-8871-4aa9-b1d7-f68e55b913ed",
+    "full_name": "Billy Dee Williams",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "49a81ffc-1670-4dcd-bbec-e224064cf99c",
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "7dc44185-c268-476d-8b0e-488a091c1d4b"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6dd77305-18ee-4d2e-9215-fd1a496ccfdf",
+    "_type": "_doc",
+    "id": "6dd77305-18ee-4d2e-9215-fd1a496ccfdf",
+    "full_name": "Mat Lucas",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "044beafe-fe25-4edc-95f4-adbb8979c35b",
+          "fdfc8266-5ece-4d85-b614-3cfe9be97b71"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6c9f7977-fd5e-4990-b41b-9833efad1eea",
+    "_type": "_doc",
+    "id": "6c9f7977-fd5e-4990-b41b-9833efad1eea",
+    "full_name": "Ashley Eckstein",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "9a2b8c98-1989-482a-b3c2-5b278b85b5fa",
+          "5f4ad555-7f89-40fb-82db-86ca77dfbaca",
+          "4c3c4c0d-1a2f-49cf-a562-f4ab67e7bf04",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea",
+          "5d62b55c-1ed5-4563-ae80-10c4baa21a36",
+          "4c1e520f-c446-4710-bdc6-36ae960c8c9d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "57a471b1-09dc-48fd-ba8a-1211015a0110",
+    "_type": "_doc",
+    "id": "57a471b1-09dc-48fd-ba8a-1211015a0110",
+    "full_name": "Patrick Stewart",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "dd007623-ae26-4acc-acf4-6664fa79584f",
+          "cc397479-a5f8-488f-bd7f-7fbb94ec6e18",
+          "d1e24e68-1c00-4d81-8dff-9d126c1a6a5e",
+          "f8dd9e27-8b53-4579-b585-94510d705bd3",
+          "8a9981d0-98c4-447a-9709-742fe7f6d9dc",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "eda3be8d-d0bd-4cf6-84ed-7bf80c371605",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "cc917adf-6327-4773-bc21-936995f84391",
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "b1384a92-f7fe-476b-b90b-6cec2b7a0dce",
+          "4107f7ac-e164-41f0-8689-189332f51742",
+          "b1a2aae8-5c9e-4583-b89e-883c0d0c969a"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "cec00f0e-200b-4b48-9ed1-2f8fc3c67427",
+    "_type": "_doc",
+    "id": "cec00f0e-200b-4b48-9ed1-2f8fc3c67427",
+    "full_name": "Michael Arndt",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "58411ec0-c40a-43da-95e3-0adc74b7e7f6",
+    "_type": "_doc",
+    "id": "58411ec0-c40a-43da-95e3-0adc74b7e7f6",
+    "full_name": "Harve Bennett",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "3b53cdf1-1acd-4837-b179-9e4c839c607e",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "96185bee-1b14-4320-84ff-def00c07593c",
+    "_type": "_doc",
+    "id": "96185bee-1b14-4320-84ff-def00c07593c",
+    "full_name": "Andr\u00e9 Sogliuzzo",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "044beafe-fe25-4edc-95f4-adbb8979c35b",
+          "fdfc8266-5ece-4d85-b614-3cfe9be97b71"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c59c5caf-5ca9-430e-bde5-f5141de25cb6",
+    "_type": "_doc",
+    "id": "c59c5caf-5ca9-430e-bde5-f5141de25cb6",
+    "full_name": "Alan Tudyk",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "2d6f6284-13ce-4d25-9453-c4335432c116",
+    "_type": "_doc",
+    "id": "2d6f6284-13ce-4d25-9453-c4335432c116",
+    "full_name": "Adam Driver",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "91f02795-7628-4ef4-acf2-d93b892365dd",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "12a8279d-d851-4eb9-9d64-d690455277cc",
+          "1d42ceae-9397-475c-9517-e94dda7bc2a1"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1989ed1e-0c0b-4872-9dfb-f5ed13c764e2",
+    "_type": "_doc",
+    "id": "1989ed1e-0c0b-4872-9dfb-f5ed13c764e2",
+    "full_name": "Irvin Kershner",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": [
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "0312ed51-8833-413f-bff5-0e139c11264a"
+        ]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["a2ff04cc-eede-43fc-a503-07f037be8cc8"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "86f1f44b-39f5-41a6-8b3b-af5a9ed09858",
+    "_type": "_doc",
+    "id": "86f1f44b-39f5-41a6-8b3b-af5a9ed09858",
+    "full_name": "Anthony Daniels",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "5c612da0-9c15-48db-b46e-e6c82b071a9b",
+          "3b1d0e70-42e5-4c9b-98cf-2681c420a99b",
+          "73ecd1e6-6326-405a-b51b-69008f383b72",
+          "490c91a4-99f1-422d-9a87-ae759acffc09",
+          "f241a62c-2157-432a-bbeb-9c579c8bc18b",
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "7b6c0d32-1205-4fd4-848e-12e1e9ef8361",
+          "4c3c4c0d-1a2f-49cf-a562-f4ab67e7bf04",
+          "aa90ffe4-6fc2-4cb9-b984-0cd169aedcd9",
+          "9430ec5e-ef91-4d13-8bf5-fabc9424c6f5",
+          "35d4ecd5-0904-48bc-8989-dc355b86bfcd",
+          "0e60f41c-cdc2-4556-ae73-a517fbbe230a",
+          "85f2b0da-e482-42b8-bd03-764fbaf38f5f",
+          "c604ca5d-4d07-4412-a7f6-ebb3942232b5",
+          "daae47e4-cbd0-4ffd-a150-55201b357d5b",
+          "dbb9b244-483b-4592-9194-4938338419bc",
+          "9dafd566-df40-427c-8367-b8904e69d006",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "b8d690e1-2ee7-4791-83ad-1339c73662c8",
+          "99b66308-a556-40e7-afd0-1c9cb014b512",
+          "3427235e-8ce9-402a-8096-5981d5be32c1",
+          "6313d0f5-e6a6-4071-a0c2-3d737fd1d56d",
+          "0c348282-65e0-4ff9-9eb3-ddc26bf1cb96",
+          "63c344b7-7386-445a-8e0e-7ec4f17f2c20",
+          "b9303aa4-0e4e-4267-ae6b-4ccc0fcab928",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59",
+          "3a28f10a-433e-431c-8e7b-cc3f90af5a41",
+          "87677f57-63bc-4498-a39c-4985a3b37643"
+        ]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["85f2b0da-e482-42b8-bd03-764fbaf38f5f"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "09ea7635-dfee-4722-ad40-23c93ef03644",
+    "_type": "_doc",
+    "id": "09ea7635-dfee-4722-ad40-23c93ef03644",
+    "full_name": "David Carson",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["98167b6e-8d41-4378-9fc3-ee998677e6cb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5237aac5-f652-4aa5-9061-55bb007cd7be",
+    "_type": "_doc",
+    "id": "5237aac5-f652-4aa5-9061-55bb007cd7be",
+    "full_name": "Tom Kane",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "09f069e1-bb3d-4956-8e9d-a82d93c41bc2",
+          "0bb10475-0043-4f98-804f-986433d6f7ac",
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "b503ced6-fff1-493a-ad41-73449b55ffee",
+          "32064806-8196-4037-b758-dd5b5d274b59",
+          "e99620fb-11bb-481b-8702-a14efa6bb0ef",
+          "2a4bed38-ab31-4291-ad12-bb0c71a55b8a",
+          "aa90ffe4-6fc2-4cb9-b984-0cd169aedcd9",
+          "b8d690e1-2ee7-4791-83ad-1339c73662c8"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "836bb95b-6db8-4418-a110-f41663b1c025",
+    "_type": "_doc",
+    "id": "836bb95b-6db8-4418-a110-f41663b1c025",
+    "full_name": "DeForest Kelley",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "19867a14-5e9e-481c-ab25-10f386a6faef",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70",
+          "db5dcded-29da-4c96-91a2-df1407f0a80a",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "daa33ede-ee33-4da9-93b9-cc3819b04358",
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3",
+          "62bb2379-5017-421a-9030-1f3f7bb51c9c",
+          "2330ec4f-d7f0-4f5a-b5ae-5d6d88aff0d4",
+          "dceab335-df68-4ee5-8b8d-6fb8d9a68041",
+          "2bfc0f50-7a88-4d4c-bbf8-f839c6150e7e"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "dc448893-7942-4677-a557-d8b1aa728ccf",
+    "_type": "_doc",
+    "id": "dc448893-7942-4677-a557-d8b1aa728ccf",
+    "full_name": "Steve Binder",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": [
+          "8629bada-6df6-417c-b7bb-2e5a604be798",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a3468637-c3c3-442c-892e-1625385c49c6",
+    "_type": "_doc",
+    "id": "a3468637-c3c3-442c-892e-1625385c49c6",
+    "full_name": "Dee Bradley Baker",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "c8f57f93-b02a-40d4-ba55-9600cceddd7e",
+          "e5a21648-59b1-4672-ac3b-867bcd64b6ea",
+          "5f4ad555-7f89-40fb-82db-86ca77dfbaca",
+          "4c3c4c0d-1a2f-49cf-a562-f4ab67e7bf04",
+          "b503ced6-fff1-493a-ad41-73449b55ffee",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea",
+          "5d62b55c-1ed5-4563-ae80-10c4baa21a36"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "d67d5cb8-4541-4b20-89be-4100ba95e615",
+    "_type": "_doc",
+    "id": "d67d5cb8-4541-4b20-89be-4100ba95e615",
+    "full_name": "Brannon Braga",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "47050db6-580f-493c-a007-a11c8768ce1b"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9f38323f-5912-40d2-a90c-b56899746f2a",
+    "_type": "_doc",
+    "id": "9f38323f-5912-40d2-a90c-b56899746f2a",
+    "full_name": "Chris Pine",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "5ebdd8a8-f324-4546-9126-5a24b63089ad",
+          "b1f1e8a6-e310-47d9-a93c-6a7b192bac0e",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "020adfa7-7251-4fb9-b6db-07b60664cb67",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f",
+          "572170d4-9a3d-47aa-8ffa-24c6b4ea367c"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "511b9add-1f0c-4b5f-be96-14dc569ffb06",
+    "_type": "_doc",
+    "id": "511b9add-1f0c-4b5f-be96-14dc569ffb06",
+    "full_name": "Avery Brooks",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "e50d4e5c-1cbc-4711-86ee-5df90c8aacc7",
+          "2cd7b122-62f1-4e07-8ac5-f0937776d0e7",
+          "10c6ec1e-c79c-4aac-aa5e-6419b67ef2e5",
+          "eda3be8d-d0bd-4cf6-84ed-7bf80c371605",
+          "a144d250-6667-47e4-94bd-0ee59c0dc05f",
+          "08c25ef9-cbd3-4368-8887-9ef884334750"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8a34f121-7ce6-4021-b467-abec993fc6cd",
+    "_type": "_doc",
+    "id": "8a34f121-7ce6-4021-b467-abec993fc6cd",
+    "full_name": "Zachary Quinto",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "b1f1e8a6-e310-47d9-a93c-6a7b192bac0e",
+          "020adfa7-7251-4fb9-b6db-07b60664cb67",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9b58c99a-e5a3-4f24-8f67-a038665758d6",
+    "_type": "_doc",
+    "id": "9b58c99a-e5a3-4f24-8f67-a038665758d6",
+    "full_name": "Roberto Orci",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "020adfa7-7251-4fb9-b6db-07b60664cb67",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897",
+          "4af6c9c9-0be0-4864-b1e9-7f87dd59ee1f"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ef1e2ad4-df4f-4fe0-8fa9-b8db690c4a19",
+    "_type": "_doc",
+    "id": "ef1e2ad4-df4f-4fe0-8fa9-b8db690c4a19",
+    "full_name": "Christopher Lee",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["c4c5e3de-c0c9-4091-b242-ceb331004dfd"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8746ff78-577b-4bef-a7f7-1db05a102def",
+    "_type": "_doc",
+    "id": "8746ff78-577b-4bef-a7f7-1db05a102def",
+    "full_name": "James Arnold Taylor",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "b503ced6-fff1-493a-ad41-73449b55ffee",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea",
+          "fdfc8266-5ece-4d85-b614-3cfe9be97b71",
+          "5f4ad555-7f89-40fb-82db-86ca77dfbaca"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5bddea2c-8609-499a-a444-77e0142743c0",
+    "_type": "_doc",
+    "id": "5bddea2c-8609-499a-a444-77e0142743c0",
+    "full_name": "Jonathan Frakes",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "50d842be-bcda-401e-90de-b06929611ce0",
+          "d1e24e68-1c00-4d81-8dff-9d126c1a6a5e",
+          "0ddc8a23-e625-4aa8-91f5-5aeb7ac82253",
+          "196804b8-a035-4fbe-afa4-59ccdfde8d65",
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3",
+          "cc917adf-6327-4773-bc21-936995f84391",
+          "a6fed222-b60c-49ff-bcd6-30e9472bc4c4",
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "b1384a92-f7fe-476b-b90b-6cec2b7a0dce",
+          "74429db7-22b1-4c93-a71d-44b3ee1ffc11"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "9d284e83-21f0-4073-aac0-4abee51193d8",
+          "5dd2dda0-aab4-4958-97ab-de0382beb91f",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "78e917f3-a80b-4d44-82f4-80712a4160ee",
+    "_type": "_doc",
+    "id": "78e917f3-a80b-4d44-82f4-80712a4160ee",
+    "full_name": "Anthony LaPaglia",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "32f131ef-cd32-4659-a037-bcff3f12ac0c",
+    "_type": "_doc",
+    "id": "32f131ef-cd32-4659-a037-bcff3f12ac0c",
+    "full_name": "Dave Filoni",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "1dcfed00-a0a1-4042-9811-66d7eb5d94bb",
+          "a9d52337-3249-49ae-92b8-65ee9ebaf359",
+          "9a2b8c98-1989-482a-b3c2-5b278b85b5fa",
+          "4c1e520f-c446-4710-bdc6-36ae960c8c9d"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": ["8cc3c3aa-e531-4eeb-a707-08119024b3ea"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "5065b37b-fd5b-4c48-8a24-435198c44830",
+          "a9d52337-3249-49ae-92b8-65ee9ebaf359"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "2b0f84fb-416b-4c30-80db-69478bf872be",
+    "_type": "_doc",
+    "id": "2b0f84fb-416b-4c30-80db-69478bf872be",
+    "full_name": "John Gregory Dunne",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "f112018e-844a-49ba-a880-89ca8cc2389e",
+    "_type": "_doc",
+    "id": "f112018e-844a-49ba-a880-89ca8cc2389e",
+    "full_name": "Leonard Ripps",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["134989c3-3b20-4ae7-8092-3e8ad2333d59"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9e8559d3-5529-4313-9ea1-cb0c8b46f232",
+    "_type": "_doc",
+    "id": "9e8559d3-5529-4313-9ea1-cb0c8b46f232",
+    "full_name": "Abbie Cornish",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "2cf03687-ebc3-47dc-a99f-602f6cc55f7a",
+    "_type": "_doc",
+    "id": "2cf03687-ebc3-47dc-a99f-602f6cc55f7a",
+    "full_name": "Simon Pegg",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "d94787ee-8cf4-45a3-88a3-0be4a21becbe",
+          "020adfa7-7251-4fb9-b6db-07b60664cb67",
+          "572170d4-9a3d-47aa-8ffa-24c6b4ea367c"
+        ]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["b1f1e8a6-e310-47d9-a93c-6a7b192bac0e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "94b38a86-0a2a-415a-a384-cc01d1984b68",
+    "_type": "_doc",
+    "id": "94b38a86-0a2a-415a-a384-cc01d1984b68",
+    "full_name": "Adam Sandler",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "807ce9c3-6294-485c-803a-1975066f239f",
+    "_type": "_doc",
+    "id": "807ce9c3-6294-485c-803a-1975066f239f",
+    "full_name": "James Doohan",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "19867a14-5e9e-481c-ab25-10f386a6faef",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70",
+          "74429db7-22b1-4c93-a71d-44b3ee1ffc11",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3",
+          "37c6cd37-1222-4470-9221-3170367d134b",
+          "15504dc5-e5ec-445e-bc84-98f928eeae70",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9",
+          "daa33ede-ee33-4da9-93b9-cc3819b04358",
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e",
+          "2330ec4f-d7f0-4f5a-b5ae-5d6d88aff0d4",
+          "dceab335-df68-4ee5-8b8d-6fb8d9a68041"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "160a18f5-88b0-40eb-ac8f-545c4e35a723",
+    "_type": "_doc",
+    "id": "160a18f5-88b0-40eb-ac8f-545c4e35a723",
+    "full_name": "Scott Bakula",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "27e04b56-0d99-48d6-9600-557623985039",
+          "7f6d5e54-ee65-41ef-b4a5-bd83b6cafd56",
+          "47050db6-580f-493c-a007-a11c8768ce1b",
+          "471cf1e2-ea17-4715-98d6-387e0d28268a"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5b4bf1bc-3397-4e83-9b17-8b10c6544ed1",
+    "_type": "_doc",
+    "id": "5b4bf1bc-3397-4e83-9b17-8b10c6544ed1",
+    "full_name": "Harrison Ford",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "3b1d0e70-42e5-4c9b-98cf-2681c420a99b",
+          "b6b8a3b7-1c12-45a8-9da7-4b20db8867df",
+          "025c58cd-1b7e-43be-9ffb-8571a613579b",
+          "cddf9b8f-27f9-4fe9-97cb-9e27d4fe3394",
+          "f241a62c-2157-432a-bbeb-9c579c8bc18b",
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "c7bd11a4-30bf-4077-a618-97c3e5525427",
+          "3d825f60-9fff-4dfe-b294-1a45fa1e115d",
+          "dbb9b244-483b-4592-9194-4938338419bc",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7f100195-5faf-4746-8a2b-df2a3e57cc8b",
+    "_type": "_doc",
+    "id": "7f100195-5faf-4746-8a2b-df2a3e57cc8b",
+    "full_name": "Kate Mulgrew",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "15afdc8b-381f-4bcb-9530-59113d10b5cb",
+          "de5347cf-a70d-430f-8005-786326e28794",
+          "eda3be8d-d0bd-4cf6-84ed-7bf80c371605"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "354604df-60a4-4c9d-b6fb-25dd33991149",
+    "_type": "_doc",
+    "id": "354604df-60a4-4c9d-b6fb-25dd33991149",
+    "full_name": "Tim Roth",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["1145f9ee-5344-4e57-81d0-5b085f3d0808"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6ba834a0-1039-4b5c-ab78-d5f1f18a4e7d",
+    "_type": "_doc",
+    "id": "6ba834a0-1039-4b5c-ab78-d5f1f18a4e7d",
+    "full_name": "Carrie Beck",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "75475f58-c0ea-4d6d-9f78-bb44d971a21f",
+          "5065b37b-fd5b-4c48-8a24-435198c44830",
+          "a9d52337-3249-49ae-92b8-65ee9ebaf359",
+          "754589c1-e304-4ed8-87bc-1ac897529b97"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a2c091a2-281e-4732-9357-79b213d8d92f",
+    "_type": "_doc",
+    "id": "a2c091a2-281e-4732-9357-79b213d8d92f",
+    "full_name": "Jonathan Kasdan",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "979996d5-ef97-427d-a0f5-d640cd1813a4",
+    "_type": "_doc",
+    "id": "979996d5-ef97-427d-a0f5-d640cd1813a4",
+    "full_name": "Jake Lloyd",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "3b914679-1f5e-4cbd-8044-d13d35d5236c",
+          "17f634cd-9581-4ba1-b40b-89ee058c3f55",
+          "08a588bd-5eeb-4cf3-8a42-f20195a02c25",
+          "7a87274a-541a-405c-b148-5946f6c707d4",
+          "c5653bd8-56b5-4530-90b2-34ce1a2ba6db",
+          "569e23df-7e00-459d-b92a-6cb4653d36b8",
+          "ec8bad1c-7643-49b3-93b5-cee9c8c1e602"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8026ef16-24cf-43a3-be5b-20609a5265ba",
+    "_type": "_doc",
+    "id": "8026ef16-24cf-43a3-be5b-20609a5265ba",
+    "full_name": "Vanessa Marshall",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "a9d52337-3249-49ae-92b8-65ee9ebaf359",
+          "7dc44185-c268-476d-8b0e-488a091c1d4b"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "69b02c62-a329-414d-83c6-ca54be34de24",
+    "_type": "_doc",
+    "id": "69b02c62-a329-414d-83c6-ca54be34de24",
+    "full_name": "Ewan McGregor",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "943946ed-4a2b-4c71-8e0b-a58a11bd1323",
+          "c4c5e3de-c0c9-4091-b242-ceb331004dfd",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7",
+          "3b914679-1f5e-4cbd-8044-d13d35d5236c"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "83e09e52-4a63-49f9-8c34-3d09774f7509",
+    "_type": "_doc",
+    "id": "83e09e52-4a63-49f9-8c34-3d09774f7509",
+    "full_name": "Robert Beltran",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "15afdc8b-381f-4bcb-9530-59113d10b5cb",
+          "de5347cf-a70d-430f-8005-786326e28794",
+          "08c25ef9-cbd3-4368-8887-9ef884334750",
+          "86607a8f-bc90-47fa-8261-15647186cbf5"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "605f31b6-6929-46b5-8e90-b926423c9113",
+    "_type": "_doc",
+    "id": "605f31b6-6929-46b5-8e90-b926423c9113",
+    "full_name": "Michelle Hurd",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["cc397479-a5f8-488f-bd7f-7fbb94ec6e18"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b5fa51d6-4753-4b64-819c-2de16af5c057",
+    "_type": "_doc",
+    "id": "b5fa51d6-4753-4b64-819c-2de16af5c057",
+    "full_name": "Mark Rosenthal",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["511b8ae8-f59d-450e-b9a2-22aabba2693b"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "189f1d17-c928-492a-aa33-2212b5ad1555",
+    "_type": "_doc",
+    "id": "189f1d17-c928-492a-aa33-2212b5ad1555",
+    "full_name": "Gareth Edwards",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["1dcfed00-a0a1-4042-9811-66d7eb5d94bb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5a8bad1b-586d-4283-a11c-af232bfd0418",
+    "_type": "_doc",
+    "id": "5a8bad1b-586d-4283-a11c-af232bfd0418",
+    "full_name": "Paul Schneider",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "618ed131-f181-4932-b3cb-e637a87d594e",
+    "_type": "_doc",
+    "id": "618ed131-f181-4932-b3cb-e637a87d594e",
+    "full_name": "Jerry Siegel",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c883c2c6-d7a4-4001-8084-e2851904e91a",
+    "_type": "_doc",
+    "id": "c883c2c6-d7a4-4001-8084-e2851904e91a",
+    "full_name": "Nicholas Meyer",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "1b7d7c64-8be8-47db-8924-23029a9878a9"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": [
+          "511b8ae8-f59d-450e-b9a2-22aabba2693b",
+          "6e5cd268-8ce4-45f9-87d2-52f0f26edc9e"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "afa7c253-6702-47d7-a451-cf2bc9350310",
+    "_type": "_doc",
+    "id": "afa7c253-6702-47d7-a451-cf2bc9350310",
+    "full_name": "Karl Urban",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "b1f1e8a6-e310-47d9-a93c-6a7b192bac0e",
+          "6ecc7a32-14a1-4da8-9881-bf81f0f09897"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "43bb73ff-0f0e-4169-b708-32a77dc1c50e",
+    "_type": "_doc",
+    "id": "43bb73ff-0f0e-4169-b708-32a77dc1c50e",
+    "full_name": "Doug Jones",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["c9e1f6f0-4f1e-4a76-92ee-76c1942faa97"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "154db4b3-87e3-45b2-9e5b-8debff5ff3cb",
+    "_type": "_doc",
+    "id": "154db4b3-87e3-45b2-9e5b-8debff5ff3cb",
+    "full_name": "Judy Garland",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["ddbc2fc3-389e-419f-a8fa-59e6cee10802"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "3d6d8482-7a99-44cf-af06-3921e8bd5cca",
+    "_type": "_doc",
+    "id": "3d6d8482-7a99-44cf-af06-3921e8bd5cca",
+    "full_name": "John Billingsley",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "27e04b56-0d99-48d6-9600-557623985039",
+          "7f6d5e54-ee65-41ef-b4a5-bd83b6cafd56",
+          "47050db6-580f-493c-a007-a11c8768ce1b",
+          "471cf1e2-ea17-4715-98d6-387e0d28268a"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "62df10e8-244d-4c31-b396-564dfbc2f9c5",
+    "_type": "_doc",
+    "id": "62df10e8-244d-4c31-b396-564dfbc2f9c5",
+    "full_name": "Hayden Christensen",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "daae47e4-cbd0-4ffd-a150-55201b357d5b",
+          "c4c5e3de-c0c9-4091-b242-ceb331004dfd",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a76a7d73-4c57-49b8-a7e8-1c5c1e3452fb",
+    "_type": "_doc",
+    "id": "a76a7d73-4c57-49b8-a7e8-1c5c1e3452fb",
+    "full_name": "Nichelle Nichols",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "d94787ee-8cf4-45a3-88a3-0be4a21becbe",
+          "9e1ec2e3-336e-4b9f-a6e0-f93c2ea9ee6d",
+          "d2d9b15d-a134-446a-af51-eb8c5207fd46",
+          "2330ec4f-d7f0-4f5a-b5ae-5d6d88aff0d4",
+          "2bfc0f50-7a88-4d4c-bbf8-f839c6150e7e"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5c360057-c51f-4376-bdf5-049b87fa853b",
+    "_type": "_doc",
+    "id": "5c360057-c51f-4376-bdf5-049b87fa853b",
+    "full_name": "Bradley Cooper",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "24b5b1fb-9931-4964-a0d2-ce664c00c1d5",
+    "_type": "_doc",
+    "id": "24b5b1fb-9931-4964-a0d2-ce664c00c1d5",
+    "full_name": "Jack B. Sowards",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["6e5cd268-8ce4-45f9-87d2-52f0f26edc9e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "13a08da2-15ca-4611-b8b0-6b25df62ae53",
+    "_type": "_doc",
+    "id": "13a08da2-15ca-4611-b8b0-6b25df62ae53",
+    "full_name": "Andrew Motion",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "2e32ab59-7df6-4b65-9cfa-954e0acf0ff3",
+    "_type": "_doc",
+    "id": "2e32ab59-7df6-4b65-9cfa-954e0acf0ff3",
+    "full_name": "Jack Carson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["ddbc2fc3-389e-419f-a8fa-59e6cee10802"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e259d88e-b693-436a-9fed-a10204b8fd91",
+    "_type": "_doc",
+    "id": "e259d88e-b693-436a-9fed-a10204b8fd91",
+    "full_name": "Robert Carson",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "045f2518-5c38-48df-9c48-639520ab57af",
+          "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d",
+          "ddbc2fc3-389e-419f-a8fa-59e6cee10802"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a37e91d0-3c82-43f3-8517-68699ee134d6",
+    "_type": "_doc",
+    "id": "a37e91d0-3c82-43f3-8517-68699ee134d6",
+    "full_name": "Stuart Baird",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["50d842be-bcda-401e-90de-b06929611ce0"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "81b3b0d6-81d9-45aa-a90b-614978cf7b29",
+    "_type": "_doc",
+    "id": "81b3b0d6-81d9-45aa-a90b-614978cf7b29",
+    "full_name": "Rene Auberjonois",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "e50d4e5c-1cbc-4711-86ee-5df90c8aacc7",
+          "ff00b2a9-9e85-44af-922f-5f3504b82c15",
+          "2cd7b122-62f1-4e07-8ac5-f0937776d0e7",
+          "a144d250-6667-47e4-94bd-0ee59c0dc05f",
+          "92f246d5-c125-4362-b380-2a993f975757"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5bd4381f-5763-474f-baa0-f7f62a0819f9",
+    "_type": "_doc",
+    "id": "5bd4381f-5763-474f-baa0-f7f62a0819f9",
+    "full_name": "John Knoll",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["aa00b2ae-86b4-43e9-9032-f0ea4c12697a"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8a9cb7b2-dd61-4f7f-94ec-61aac18ed5d9",
+    "_type": "_doc",
+    "id": "8a9cb7b2-dd61-4f7f-94ec-61aac18ed5d9",
+    "full_name": "Kirsten Beyer",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "cc397479-a5f8-488f-bd7f-7fbb94ec6e18",
+          "a9ee0b3f-ec56-4107-9b6d-0458dfa3f415"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "01377f6d-9767-48ce-9e37-3c81f8a3c739",
+    "_type": "_doc",
+    "id": "01377f6d-9767-48ce-9e37-3c81f8a3c739",
+    "full_name": "Woody Harrelson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "382da5d5-135b-4b02-a069-ba9beb5f3786",
+    "_type": "_doc",
+    "id": "382da5d5-135b-4b02-a069-ba9beb5f3786",
+    "full_name": "Ronald D. Moore",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "98167b6e-8d41-4378-9fc3-ee998677e6cb",
+          "50fb4de9-e4b3-4aca-9f2f-00a48f12f9b3"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "26e3926b-6fad-4297-8bbe-dfc8921883cf",
+    "_type": "_doc",
+    "id": "26e3926b-6fad-4297-8bbe-dfc8921883cf",
+    "full_name": "Meredith Averill",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["d38c5a13-860e-478b-a645-e09d5d727244"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "84c192fa-7178-4a57-bdd6-a81716e7bb40",
+    "_type": "_doc",
+    "id": "84c192fa-7178-4a57-bdd6-a81716e7bb40",
+    "full_name": "Steven Melching",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea",
+          "5f4ad555-7f89-40fb-82db-86ca77dfbaca"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "fc616cc0-3961-44ff-ac27-9bfdcc28917f",
+    "_type": "_doc",
+    "id": "fc616cc0-3961-44ff-ac27-9bfdcc28917f",
+    "full_name": "Dominic West",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "496f504e-20fa-4dfd-b4cb-c7c4ef636e07",
+          "c0f9dcf1-4110-407c-8fb9-acae55c72629"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "39abe5bd-33b3-44e8-8c12-2e360e2fa621",
+    "_type": "_doc",
+    "id": "39abe5bd-33b3-44e8-8c12-2e360e2fa621",
+    "full_name": "Liam Neeson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["3b914679-1f5e-4cbd-8044-d13d35d5236c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "47c4a7d9-9fb6-444d-9852-56df2d3a98c1",
+    "_type": "_doc",
+    "id": "47c4a7d9-9fb6-444d-9852-56df2d3a98c1",
+    "full_name": "Mitzie Welch",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "57b16fe9-4a0f-4621-a0de-db9b3332a1b6",
+          "134989c3-3b20-4ae7-8092-3e8ad2333d59"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "035c4793-4864-45b8-8d4f-b86b454c60b0",
+    "_type": "_doc",
+    "id": "035c4793-4864-45b8-8d4f-b86b454c60b0",
+    "full_name": "Marina Sirtis",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "b1384a92-f7fe-476b-b90b-6cec2b7a0dce",
+          "62bb2379-5017-421a-9030-1f3f7bb51c9c"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6a487623-baa0-4d44-854d-6ca1ca6f8ab4",
+    "_type": "_doc",
+    "id": "6a487623-baa0-4d44-854d-6ca1ca6f8ab4",
+    "full_name": "Fred Wolf",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "0c7a51eb-1a64-4787-a042-3226e37dc512",
+    "_type": "_doc",
+    "id": "0c7a51eb-1a64-4787-a042-3226e37dc512",
+    "full_name": "Isa Briones",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["cc397479-a5f8-488f-bd7f-7fbb94ec6e18"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "976fdf00-4f46-429b-af5b-2ddf2ff1b7c5",
+    "_type": "_doc",
+    "id": "976fdf00-4f46-429b-af5b-2ddf2ff1b7c5",
+    "full_name": "Matt Lanter",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "d38c5a13-860e-478b-a645-e09d5d727244",
+          "b503ced6-fff1-493a-ad41-73449b55ffee",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea",
+          "5f4ad555-7f89-40fb-82db-86ca77dfbaca"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "d3377a4d-eee3-4fba-adca-fb60170afbeb",
+    "_type": "_doc",
+    "id": "d3377a4d-eee3-4fba-adca-fb60170afbeb",
+    "full_name": "Alexander Siddig",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["a144d250-6667-47e4-94bd-0ee59c0dc05f"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a6d0f7e6-450c-4a16-8b9f-1a6d9a1ce837",
+    "_type": "_doc",
+    "id": "a6d0f7e6-450c-4a16-8b9f-1a6d9a1ce837",
+    "full_name": "Simon Kinberg",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["a9d52337-3249-49ae-92b8-65ee9ebaf359"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b670fa3e-9f7b-4786-a00c-09d95f1e7b5c",
+    "_type": "_doc",
+    "id": "b670fa3e-9f7b-4786-a00c-09d95f1e7b5c",
+    "full_name": "Bryan Fuller",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "c9e1f6f0-4f1e-4a76-92ee-76c1942faa97",
+          "a9ee0b3f-ec56-4107-9b6d-0458dfa3f415"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1749841f-0569-49bb-96ce-3f9dd51b42e2",
+    "_type": "_doc",
+    "id": "1749841f-0569-49bb-96ce-3f9dd51b42e2",
+    "full_name": "Denny Martin Flinn",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["511b8ae8-f59d-450e-b9a2-22aabba2693b"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e0dd7338-b686-465c-93da-c9b2c57d46bb",
+    "_type": "_doc",
+    "id": "e0dd7338-b686-465c-93da-c9b2c57d46bb",
+    "full_name": "Gary Whitta",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "cdf3ace6-802d-4620-b875-809e6318a493",
+    "_type": "_doc",
+    "id": "cdf3ace6-802d-4620-b875-809e6318a493",
+    "full_name": "Chris Terrio",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["46f15353-2add-415d-9782-fa9c5b8083d5"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "d6a04742-cc3d-43f7-9657-e3c73b37dfaa",
+    "_type": "_doc",
+    "id": "d6a04742-cc3d-43f7-9657-e3c73b37dfaa",
+    "full_name": "George Cukor",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["ddbc2fc3-389e-419f-a8fa-59e6cee10802"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7f4382be-73f0-4741-bd46-6f895099b661",
+    "_type": "_doc",
+    "id": "7f4382be-73f0-4741-bd46-6f895099b661",
+    "full_name": "Pat Proft",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["134989c3-3b20-4ae7-8092-3e8ad2333d59"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ba333c8b-9b0b-4390-99c0-05a8117f7f68",
+    "_type": "_doc",
+    "id": "ba333c8b-9b0b-4390-99c0-05a8117f7f68",
+    "full_name": "Jolene Blalock",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "47050db6-580f-493c-a007-a11c8768ce1b",
+          "471cf1e2-ea17-4715-98d6-387e0d28268a"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c7d49113-c202-45a8-a267-a8cd61f27543",
+    "_type": "_doc",
+    "id": "c7d49113-c202-45a8-a267-a8cd61f27543",
+    "full_name": "Elizabeth Pe\u00f1a",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "cff61032-be90-44b6-85e2-c0fd6049440c",
+    "_type": "_doc",
+    "id": "cff61032-be90-44b6-85e2-c0fd6049440c",
+    "full_name": "Dwayne McDuffie",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a2b715d4-43f9-418e-a8b0-10ecb3ded1a5",
+    "_type": "_doc",
+    "id": "a2b715d4-43f9-418e-a8b0-10ecb3ded1a5",
+    "full_name": "Dan O'Bannon",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      },
+      {
+        "role": "actor",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "70adcb88-ed89-4654-866e-9b124b95c82b",
+    "_type": "_doc",
+    "id": "70adcb88-ed89-4654-866e-9b124b95c82b",
+    "full_name": "Rod Warren",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["134989c3-3b20-4ae7-8092-3e8ad2333d59"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "06d3686f-56e0-40df-81ea-af95a203b58a",
+    "_type": "_doc",
+    "id": "06d3686f-56e0-40df-81ea-af95a203b58a",
+    "full_name": "Chris Weitz",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "896516e8-104d-4478-b8af-4b2af0d3afb2",
+    "_type": "_doc",
+    "id": "896516e8-104d-4478-b8af-4b2af0d3afb2",
+    "full_name": "Greg Finley",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["d38c5a13-860e-478b-a645-e09d5d727244"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "772faacb-5d57-4e72-b44f-01fde7f08c1a",
+    "_type": "_doc",
+    "id": "772faacb-5d57-4e72-b44f-01fde7f08c1a",
+    "full_name": "Akiva Goldsman",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "cc397479-a5f8-488f-bd7f-7fbb94ec6e18",
+          "a9ee0b3f-ec56-4107-9b6d-0458dfa3f415"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "77789b44-e734-4fa6-91e8-212a09fa4a32",
+    "_type": "_doc",
+    "id": "77789b44-e734-4fa6-91e8-212a09fa4a32",
+    "full_name": "Lady Gaga",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c777f646-dae0-466f-867a-bc535a0b021b",
+    "_type": "_doc",
+    "id": "c777f646-dae0-466f-867a-bc535a0b021b",
+    "full_name": "Natalie Portman",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "c4c5e3de-c0c9-4091-b242-ceb331004dfd",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7",
+          "3b914679-1f5e-4cbd-8044-d13d35d5236c"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c05bfb01-60d1-42c7-b372-62bc0a916abf",
+    "_type": "_doc",
+    "id": "c05bfb01-60d1-42c7-b372-62bc0a916abf",
+    "full_name": "Christina Hendricks",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "1145f9ee-5344-4e57-81d0-5b085f3d0808",
+          "9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c69da9bd-eb87-4a06-be70-95d4ee2da1cc",
+    "_type": "_doc",
+    "id": "c69da9bd-eb87-4a06-be70-95d4ee2da1cc",
+    "full_name": "Joonas Suotamo",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "0031feab-8f53-412a-8f53-47098a60ac73",
+    "_type": "_doc",
+    "id": "0031feab-8f53-412a-8f53-47098a60ac73",
+    "full_name": "John Sayles",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7fb9ae3d-aeac-40a9-aa25-cd6992be16a6",
+    "_type": "_doc",
+    "id": "7fb9ae3d-aeac-40a9-aa25-cd6992be16a6",
+    "full_name": "Moss Hart",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "ddbc2fc3-389e-419f-a8fa-59e6cee10802",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "f92c9c08-4674-4aba-85be-eb8b28364fad",
+    "_type": "_doc",
+    "id": "f92c9c08-4674-4aba-85be-eb8b28364fad",
+    "full_name": "Christina Ricci",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "3f123595-ecfb-4740-a1c5-ceab9fc21c23",
+    "_type": "_doc",
+    "id": "3f123595-ecfb-4740-a1c5-ceab9fc21c23",
+    "full_name": "Anthony Rapp",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["c9e1f6f0-4f1e-4a76-92ee-76c1942faa97"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "42382903-c0da-4937-991a-c38efada9c61",
+    "_type": "_doc",
+    "id": "42382903-c0da-4937-991a-c38efada9c61",
+    "full_name": "Charles Bickford",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["ddbc2fc3-389e-419f-a8fa-59e6cee10802"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "2a2e7dfb-06ff-4c43-889d-05544f531d4d",
+    "_type": "_doc",
+    "id": "2a2e7dfb-06ff-4c43-889d-05544f531d4d",
+    "full_name": "Dorothy Parker",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "045f2518-5c38-48df-9c48-639520ab57af",
+          "ddbc2fc3-389e-419f-a8fa-59e6cee10802"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7970a901-e0ee-4a71-a2ea-9c964dcffc29",
+    "_type": "_doc",
+    "id": "7970a901-e0ee-4a71-a2ea-9c964dcffc29",
+    "full_name": "Cirroc Lofton",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["a144d250-6667-47e4-94bd-0ee59c0dc05f"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "eda15243-9373-412b-8010-1cc70cacebf5",
+    "_type": "_doc",
+    "id": "eda15243-9373-412b-8010-1cc70cacebf5",
+    "full_name": "Stephen Herek",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["496f504e-20fa-4dfd-b4cb-c7c4ef636e07"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ed149438-4d76-45c9-861b-d3ed48ccbf0c",
+    "_type": "_doc",
+    "id": "ed149438-4d76-45c9-861b-d3ed48ccbf0c",
+    "full_name": "Leigh Brackett",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "0312ed51-8833-413f-bff5-0e139c11264a",
+          "4f53452f-a402-4a76-89fd-f034eeb8d657",
+          "64aa7000-698f-4332-b52f-9469e4d44ee1"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ac44d92b-7de3-4274-908f-0173e6ba310b",
+    "_type": "_doc",
+    "id": "ac44d92b-7de3-4274-908f-0173e6ba310b",
+    "full_name": "Diego Luna",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "477c81a7-4caf-4ce3-b354-831169a1a068",
+    "_type": "_doc",
+    "id": "477c81a7-4caf-4ce3-b354-831169a1a068",
+    "full_name": "James Denton",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "dbac6947-e620-4f92-b6a1-dae9a3b07422",
+    "_type": "_doc",
+    "id": "dbac6947-e620-4f92-b6a1-dae9a3b07422",
+    "full_name": "Damon Lindelof",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["6ecc7a32-14a1-4da8-9881-bf81f0f09897"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "d58cfb85-fbec-46c4-b2ae-b9b87b9c8d70",
+    "_type": "_doc",
+    "id": "d58cfb85-fbec-46c4-b2ae-b9b87b9c8d70",
+    "full_name": "Roxann Dawson",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "15afdc8b-381f-4bcb-9530-59113d10b5cb",
+          "de5347cf-a70d-430f-8005-786326e28794"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7754f297-7531-4d31-9ae4-b46100a54982",
+    "_type": "_doc",
+    "id": "7754f297-7531-4d31-9ae4-b46100a54982",
+    "full_name": "Grant Morrison",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9dc44d38-40ef-48ad-ad87-5e4fb6524f38",
+    "_type": "_doc",
+    "id": "9dc44d38-40ef-48ad-ad87-5e4fb6524f38",
+    "full_name": "Cal Kuniholm",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8c0eb98b-4020-4012-914e-533939ddafde",
+    "_type": "_doc",
+    "id": "8c0eb98b-4020-4012-914e-533939ddafde",
+    "full_name": "John Stockwell",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["496f504e-20fa-4dfd-b4cb-c7c4ef636e07"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b66db341-5dcd-4aaf-b536-050b59979357",
+    "_type": "_doc",
+    "id": "b66db341-5dcd-4aaf-b536-050b59979357",
+    "full_name": "Rian Johnson",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["12a8279d-d851-4eb9-9d64-d690455277cc"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["12a8279d-d851-4eb9-9d64-d690455277cc"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7caea3e2-194c-4876-be8f-60b1a4743d21",
+    "_type": "_doc",
+    "id": "7caea3e2-194c-4876-be8f-60b1a4743d21",
+    "full_name": "Peter Krikes",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["1b7d7c64-8be8-47db-8924-23029a9878a9"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b1ff15a7-3c80-4474-bc82-97a9655cce55",
+    "_type": "_doc",
+    "id": "b1ff15a7-3c80-4474-bc82-97a9655cce55",
+    "full_name": "Ben Whishaw",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e3a8bf89-10a9-404a-8cd8-ea249c0a654e",
+    "_type": "_doc",
+    "id": "e3a8bf89-10a9-404a-8cd8-ea249c0a654e",
+    "full_name": "Jeri Taylor",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["de5347cf-a70d-430f-8005-786326e28794"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e6cab71d-a637-4ba0-ad51-2097e038e41d",
+    "_type": "_doc",
+    "id": "e6cab71d-a637-4ba0-ad51-2097e038e41d",
+    "full_name": "James Mason",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["ddbc2fc3-389e-419f-a8fa-59e6cee10802"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c5affe3b-e9f2-4fdb-a5ee-018dd751d3f4",
+    "_type": "_doc",
+    "id": "c5affe3b-e9f2-4fdb-a5ee-018dd751d3f4",
+    "full_name": "Michael Chabon",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "cc397479-a5f8-488f-bd7f-7fbb94ec6e18",
+          "a9ee0b3f-ec56-4107-9b6d-0458dfa3f415"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7026c3f4-d7b8-414a-99d5-06de1788a0ee",
+    "_type": "_doc",
+    "id": "7026c3f4-d7b8-414a-99d5-06de1788a0ee",
+    "full_name": "Daisy Ridley",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "46f15353-2add-415d-9782-fa9c5b8083d5",
+          "12a8279d-d851-4eb9-9d64-d690455277cc"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ddd48c5e-8c30-4db8-869c-4b591b9697b5",
+    "_type": "_doc",
+    "id": "ddd48c5e-8c30-4db8-869c-4b591b9697b5",
+    "full_name": "Grey Damon",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["d38c5a13-860e-478b-a645-e09d5d727244"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "317ba074-e7bf-4c7a-a6e3-da71b1e7cbf2",
+    "_type": "_doc",
+    "id": "317ba074-e7bf-4c7a-a6e3-da71b1e7cbf2",
+    "full_name": "Alan Dean Foster",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["a7b11817-205f-4e1a-98b5-e3c48b824bc3"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ccb3418a-d3e2-4878-a355-6f720211f39f",
+    "_type": "_doc",
+    "id": "ccb3418a-d3e2-4878-a355-6f720211f39f",
+    "full_name": "Felicity Jones",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "24f48dd1-c19b-4a78-aa05-1b2db0235296",
+    "_type": "_doc",
+    "id": "24f48dd1-c19b-4a78-aa05-1b2db0235296",
+    "full_name": "Sam Weisman",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e31f6518-6f0a-4738-a224-211eb4150e13",
+    "_type": "_doc",
+    "id": "e31f6518-6f0a-4738-a224-211eb4150e13",
+    "full_name": "Frank Pierson",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+          "fda827f8-d261-4c23-9e9c-e42787580c4d"
+        ]
+      },
+      {
+        "role": "director",
+        "film_work_ids": ["da7941cf-3be4-4f0b-a27e-649f18b4e8e9"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9052c429-df4d-4088-8ff5-40de76bd74e1",
+    "_type": "_doc",
+    "id": "9052c429-df4d-4088-8ff5-40de76bd74e1",
+    "full_name": "Craig Bierko",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "d62e51ce-b899-4d28-a69e-0323c0b7b41d",
+          "192b3fc9-97e2-4260-91c6-a9b91a41e520"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "e52627f7-a659-476a-b415-e58e6bebe824",
+    "_type": "_doc",
+    "id": "e52627f7-a659-476a-b415-e58e6bebe824",
+    "full_name": "Sam Elliott",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "4017cda3-0934-41b1-b8e9-0e3fb792d2ce",
+    "_type": "_doc",
+    "id": "4017cda3-0934-41b1-b8e9-0e3fb792d2ce",
+    "full_name": "Stephen J. Lang",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ce06e6d7-600b-4829-badf-5d02c61f1a92",
+    "_type": "_doc",
+    "id": "ce06e6d7-600b-4829-badf-5d02c61f1a92",
+    "full_name": "Alden Ehrenreich",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["57beb3fd-b1c9-4f8a-9c06-2da13f95251c"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6d9a226f-85ca-4270-9f26-7d1b1cc7b444",
+    "_type": "_doc",
+    "id": "6d9a226f-85ca-4270-9f26-7d1b1cc7b444",
+    "full_name": "Tony Gilroy",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "200a8ad1-fe5a-4246-a31c-57902b000613",
+    "_type": "_doc",
+    "id": "200a8ad1-fe5a-4246-a31c-57902b000613",
+    "full_name": "Sam Liu",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6e2f9652-460b-4c6a-b527-5c05b40965fe",
+    "_type": "_doc",
+    "id": "6e2f9652-460b-4c6a-b527-5c05b40965fe",
+    "full_name": "Donnie Yen",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["118fd71b-93cd-4de5-95a4-e1485edad30e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "861a3116-7f75-4b7c-b1a1-5efd4936589c",
+    "_type": "_doc",
+    "id": "861a3116-7f75-4b7c-b1a1-5efd4936589c",
+    "full_name": "Mary Wiseman",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["c9e1f6f0-4f1e-4a76-92ee-76c1942faa97"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "b2362da9-6c24-422c-8085-01851ba79297",
+    "_type": "_doc",
+    "id": "b2362da9-6c24-422c-8085-01851ba79297",
+    "full_name": "Jason Bonham",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["496f504e-20fa-4dfd-b4cb-c7c4ef636e07"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "0d1d24d6-9840-4519-8e7b-dabca3970ae0",
+    "_type": "_doc",
+    "id": "0d1d24d6-9840-4519-8e7b-dabca3970ae0",
+    "full_name": "Scott Terra",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "207c28f1-2d25-4f6c-b3d2-1ba2a18c51de",
+    "_type": "_doc",
+    "id": "207c28f1-2d25-4f6c-b3d2-1ba2a18c51de",
+    "full_name": "Harold Livingston",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["a7b11817-205f-4e1a-98b5-e3c48b824bc3"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7214e401-bb43-4da2-9e7a-cd6ca31ee8ca",
+    "_type": "_doc",
+    "id": "7214e401-bb43-4da2-9e7a-cd6ca31ee8ca",
+    "full_name": "Ian McDiarmid",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "a20566a2-b3ec-4814-ae9a-040aabcb38e7",
+          "516f91da-bd70-4351-ba6d-25e16b7713b7"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "11819966-b9d1-494d-bafa-9033ddbe3ab4",
+    "_type": "_doc",
+    "id": "11819966-b9d1-494d-bafa-9033ddbe3ab4",
+    "full_name": "Taylor Gray",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["a9d52337-3249-49ae-92b8-65ee9ebaf359"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "698522c6-f8e9-403a-8922-9d320dec5753",
+    "_type": "_doc",
+    "id": "698522c6-f8e9-403a-8922-9d320dec5753",
+    "full_name": "Doug Jung",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["b1f1e8a6-e310-47d9-a93c-6a7b192bac0e"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "13f1f40e-cf1b-446e-a7c4-e30d377bce35",
+    "_type": "_doc",
+    "id": "13f1f40e-cf1b-446e-a7c4-e30d377bce35",
+    "full_name": "Scott Murphy",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "07f8bdbe-5246-4dfc-8d38-85043aeb307b",
+          "8cc3c3aa-e531-4eeb-a707-08119024b3ea"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7fd71d89-3e74-4876-a223-a7ac808711f1",
+    "_type": "_doc",
+    "id": "7fd71d89-3e74-4876-a223-a7ac808711f1",
+    "full_name": "Kerry Fox",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "a02640da-38c3-4796-b1bf-37d7c4d37344",
+    "_type": "_doc",
+    "id": "a02640da-38c3-4796-b1bf-37d7c4d37344",
+    "full_name": "Mary McCormack",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["192b3fc9-97e2-4260-91c6-a9b91a41e520"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "bd2a8ab8-a7bc-45cf-852b-d23cb1cf4b5d",
+    "_type": "_doc",
+    "id": "bd2a8ab8-a7bc-45cf-852b-d23cb1cf4b5d",
+    "full_name": "Sonequa Martin-Green",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["c9e1f6f0-4f1e-4a76-92ee-76c1942faa97"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "7dd18bd5-6748-4f6d-8919-c4eb5d660632",
+    "_type": "_doc",
+    "id": "7dd18bd5-6748-4f6d-8919-c4eb5d660632",
+    "full_name": "Robert Wise",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": [
+          "4cfc6519-7e07-4419-9db3-127b0166331a",
+          "a7b11817-205f-4e1a-98b5-e3c48b824bc3"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "08baac48-370c-43a1-8bc2-4dc6cd597333",
+    "_type": "_doc",
+    "id": "08baac48-370c-43a1-8bc2-4dc6cd597333",
+    "full_name": "Jane Campion",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      },
+      {
+        "role": "writer",
+        "film_work_ids": ["319df05f-c5d9-4389-a84a-a43e695bf048"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1f6ad693-a134-44f1-a0a6-71e4c0dec31a",
+    "_type": "_doc",
+    "id": "1f6ad693-a134-44f1-a0a6-71e4c0dec31a",
+    "full_name": "John Logan",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["50d842be-bcda-401e-90de-b06929611ce0"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "3a79bcae-0fff-4aea-b841-d4ce74b8a2ff",
+    "_type": "_doc",
+    "id": "3a79bcae-0fff-4aea-b841-d4ce74b8a2ff",
+    "full_name": "Bruce Vilanch",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["134989c3-3b20-4ae7-8092-3e8ad2333d59"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1f651d3f-b94a-4bc3-9a7d-68d79848124b",
+    "_type": "_doc",
+    "id": "1f651d3f-b94a-4bc3-9a7d-68d79848124b",
+    "full_name": "Joe Shuster",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "25423597-4cb0-4e9f-a9aa-86b1fd3aadee",
+    "_type": "_doc",
+    "id": "25423597-4cb0-4e9f-a9aa-86b1fd3aadee",
+    "full_name": "Mark Wahlberg",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["496f504e-20fa-4dfd-b4cb-c7c4ef636e07"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "eac1449e-09ed-4912-8467-fba3d489c6bb",
+    "_type": "_doc",
+    "id": "eac1449e-09ed-4912-8467-fba3d489c6bb",
+    "full_name": "Edward Asner",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": [
+          "92f246d5-c125-4362-b380-2a993f975757",
+          "9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "490698ef-aa5e-4554-95a0-f19ad3bb451e",
+    "_type": "_doc",
+    "id": "490698ef-aa5e-4554-95a0-f19ad3bb451e",
+    "full_name": "Allen Covert",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1a84b0ac-ff8f-4169-a14b-7393acea8ddd",
+    "_type": "_doc",
+    "id": "1a84b0ac-ff8f-4169-a14b-7393acea8ddd",
+    "full_name": "David Loughery",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "3b53cdf1-1acd-4837-b179-9e4c839c607e",
+          "82297925-80cc-4c47-b6cf-6b5e06e23b70"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "48fe64d4-e4e9-443d-9201-3294fb62715d",
+    "_type": "_doc",
+    "id": "48fe64d4-e4e9-443d-9201-3294fb62715d",
+    "full_name": "Aimee Teegarden",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["d38c5a13-860e-478b-a645-e09d5d727244"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "22c22735-fd77-4a69-97e0-5307adcc096c",
+    "_type": "_doc",
+    "id": "22c22735-fd77-4a69-97e0-5307adcc096c",
+    "full_name": "Tom Brady",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "57a4f809-225e-4a8a-a867-0537a085d6c4",
+    "_type": "_doc",
+    "id": "57a4f809-225e-4a8a-a867-0537a085d6c4",
+    "full_name": "Freddie Prinze Jr.",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["a9d52337-3249-49ae-92b8-65ee9ebaf359"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "8c220eeb-8022-44d5-8435-1f8edf258ac7",
+    "_type": "_doc",
+    "id": "8c220eeb-8022-44d5-8435-1f8edf258ac7",
+    "full_name": "Jonathan Hales",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["c4c5e3de-c0c9-4091-b242-ceb331004dfd"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "c97f0b2f-6cb0-459e-8547-46f8f4e7c1d7",
+    "_type": "_doc",
+    "id": "c97f0b2f-6cb0-459e-8547-46f8f4e7c1d7",
+    "full_name": "David Acomba",
+    "roles": [
+      {
+        "role": "director",
+        "film_work_ids": ["134989c3-3b20-4ae7-8092-3e8ad2333d59"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "ce1799d3-0010-47ca-8635-b5ff1156a01d",
+    "_type": "_doc",
+    "id": "ce1799d3-0010-47ca-8635-b5ff1156a01d",
+    "full_name": "Alan Campbell",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": [
+          "045f2518-5c38-48df-9c48-639520ab57af",
+          "ddbc2fc3-389e-419f-a8fa-59e6cee10802"
+        ]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "39276c87-27ec-42f3-a573-e0184fc463a7",
+    "_type": "_doc",
+    "id": "39276c87-27ec-42f3-a573-e0184fc463a7",
+    "full_name": "Eric Roth",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9ea3f318-841d-44fc-afba-21d154eb99be",
+    "_type": "_doc",
+    "id": "9ea3f318-841d-44fc-afba-21d154eb99be",
+    "full_name": "Jennifer Aniston",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["496f504e-20fa-4dfd-b4cb-c7c4ef636e07"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "74b4cc18-9fb3-4796-b718-2d0fa4f84fb4",
+    "_type": "_doc",
+    "id": "74b4cc18-9fb3-4796-b718-2d0fa4f84fb4",
+    "full_name": "Steve Meerson",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["1b7d7c64-8be8-47db-8924-23029a9878a9"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9412ef02-5ed1-407b-9420-ead779a4990a",
+    "_type": "_doc",
+    "id": "9412ef02-5ed1-407b-9420-ead779a4990a",
+    "full_name": "Chris Cooper",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["bfe61bd9-5dfd-41ca-80ae-8eca998bc29d"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "6e0b0fb6-8edd-4161-807c-0556a2421522",
+    "_type": "_doc",
+    "id": "6e0b0fb6-8edd-4161-807c-0556a2421522",
+    "full_name": "Stephen Dorff",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["935e418d-09f3-4de4-8ce3-c31f31580b12"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "5623ae85-91ff-44f1-b46d-21c9d1d0d7f6",
+    "_type": "_doc",
+    "id": "5623ae85-91ff-44f1-b46d-21c9d1d0d7f6",
+    "full_name": "Colin Trevorrow",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["46f15353-2add-415d-9782-fa9c5b8083d5"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "643096b7-e25e-40c4-a206-3f233aa9be43",
+    "_type": "_doc",
+    "id": "643096b7-e25e-40c4-a206-3f233aa9be43",
+    "full_name": "Dominic Keating",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["47050db6-580f-493c-a007-a11c8768ce1b"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "1a93d567-f525-4fcf-a9b0-67f1a3f56eb3",
+    "_type": "_doc",
+    "id": "1a93d567-f525-4fcf-a9b0-67f1a3f56eb3",
+    "full_name": "Alison Pill",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["cc397479-a5f8-488f-bd7f-7fbb94ec6e18"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "9b401777-277e-40a2-8e69-cf6561b987ed",
+    "_type": "_doc",
+    "id": "9b401777-277e-40a2-8e69-cf6561b987ed",
+    "full_name": "Frank Quitely",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["9c7dc26a-489d-4c08-9bba-6ae9dc8117f1"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "51106cd4-89d9-4ab6-88cb-15cdd20d1ea0",
+    "_type": "_doc",
+    "id": "51106cd4-89d9-4ab6-88cb-15cdd20d1ea0",
+    "full_name": "Dre Pahich",
+    "roles": [
+      {
+        "role": "actor",
+        "film_work_ids": ["856bc547-0bae-4de5-8bcc-6d3f9e92d3eb"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "26e020b4-98d9-4c78-b85a-0570eb19d9bc",
+    "_type": "_doc",
+    "id": "26e020b4-98d9-4c78-b85a-0570eb19d9bc",
+    "full_name": "Derek Connolly",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["46f15353-2add-415d-9782-fa9c5b8083d5"]
+      }
+    ]
+  },
+  {
+    "_index": "person",
+    "_id": "dd0d82d8-1c95-4bb9-b9c6-d707773aa4db",
+    "_type": "_doc",
+    "id": "dd0d82d8-1c95-4bb9-b9c6-d707773aa4db",
+    "full_name": "Will Fetters",
+    "roles": [
+      {
+        "role": "writer",
+        "film_work_ids": ["fda827f8-d261-4c23-9e9c-e42787580c4d"]
+      }
+    ]
+  }
+]
+

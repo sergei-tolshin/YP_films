@@ -1,0 +1,830 @@
+[
+  {
+    "_index": "movies",
+    "_id": "045f2518-5c38-48df-9c48-639520ab57af",
+    "_type": "_doc",
+    "id": "045f2518-5c38-48df-9c48-639520ab57af",
+    "imdb_rating": 7.3,
+    "title": "A Star Is Born",
+    "description": "Esther Blodgett is just another starry-eyed farm kid trying to break into the movies. Waitressing at a Hollywood party, she catches the eye of alcoholic star Norman Maine, is given a test, and is caught up in the Hollywood glamor machine (ruthlessly satirized). She and her idol Norman marry; but his career abruptly dwindles to nothing",
+    "actors_names": [
+      "May Robson",
+      "Adolphe Menjou",
+      "Fredric March",
+      "Janet Gaynor"
+    ],
+    "writers_names": [
+      "Robert Carson",
+      "William A. Wellman",
+      "Dorothy Parker",
+      "Alan Campbell"
+    ],
+    "directors_names": ["Jack Conway", "William A. Wellman"],
+    "genres_names": ["Drama", "Romance"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" }
+    ],
+    "actors": [
+      { "id": "1c6da0a2-233f-4640-a198-360ec518ba78", "name": "May Robson" },
+      {
+        "id": "d2a4bb4a-b1bb-48f0-a006-cd1202ee4d15",
+        "name": "Adolphe Menjou"
+      },
+      { "id": "5f6a9006-dba4-4b63-ac34-b56c3e8a7e8f", "name": "Fredric March" },
+      { "id": "a7300f08-d78b-4776-bb81-f197bf9f45e3", "name": "Janet Gaynor" }
+    ],
+    "writers": [
+      { "id": "e259d88e-b693-436a-9fed-a10204b8fd91", "name": "Robert Carson" },
+      {
+        "id": "5ac68e18-a84c-4a98-a2ba-85d1bc85e0a4",
+        "name": "William A. Wellman"
+      },
+      {
+        "id": "2a2e7dfb-06ff-4c43-889d-05544f531d4d",
+        "name": "Dorothy Parker"
+      },
+      { "id": "ce1799d3-0010-47ca-8635-b5ff1156a01d", "name": "Alan Campbell" }
+    ],
+    "directors": [
+      { "id": "d2232192-4d4e-4199-b7a3-f345b53d315c", "name": "Jack Conway" },
+      {
+        "id": "5ac68e18-a84c-4a98-a2ba-85d1bc85e0a4",
+        "name": "William A. Wellman"
+      }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "894b0d4a-291c-4a9d-8d39-8fe856ee237c",
+    "_type": "_doc",
+    "id": "894b0d4a-291c-4a9d-8d39-8fe856ee237c",
+    "imdb_rating": 7.3,
+    "title": "Fist of the North Star",
+    "description": "After a nuclear holocaust tears the world apart, mankind is forced to the harshness of not only the oppression of others who are much more powerful, but the dead earth which seems to be getting worse with every passing moment. But a savior has risen from the ashes, a man who will defeat those who would torment the weak and make the world a livable place once more. A man named Kenshiro.....",
+    "actors_names": [
+      "Yuriko Yamamoto",
+      "Chikao Ohtsuka",
+      "Kenji Utsumi",
+      "Akira Kamiya"
+    ],
+    "writers_names": ["Susumu Takaku", "Tetsuo Hara", "Buronson"],
+    "directors_names": ["Toyoo Ashida"],
+    "genres_names": ["Animation", "Action", "Fantasy", "Drama"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      {
+        "id": "a376fec1-f7a8-48b6-8cac-dca5d76d49fe",
+        "name": "Yuriko Yamamoto"
+      },
+      {
+        "id": "25830cf3-7a92-409e-b0f6-f9c0ebeeb34b",
+        "name": "Chikao Ohtsuka"
+      },
+      { "id": "7f352555-da38-4c28-ad4e-b83b7e8bd798", "name": "Kenji Utsumi" },
+      { "id": "135ba71e-34e5-44a7-b174-8ff2fce21ab8", "name": "Akira Kamiya" }
+    ],
+    "writers": [
+      { "id": "06b762e1-5c66-4c2c-baae-50393620e8ac", "name": "Susumu Takaku" },
+      { "id": "6406101c-18ea-4d8a-9c7d-6c0a506a2b78", "name": "Tetsuo Hara" },
+      { "id": "8b89934d-72eb-4676-b146-73100e7e54aa", "name": "Buronson" }
+    ],
+    "directors": [
+      { "id": "c778b21c-385b-4c7a-843e-106769e23bc9", "name": "Toyoo Ashida" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "5a5603b2-afb5-42f5-8235-bb75b2cd9edd",
+    "_type": "_doc",
+    "id": "5a5603b2-afb5-42f5-8235-bb75b2cd9edd",
+    "imdb_rating": 8.3,
+    "title": "My Love from Another Star",
+    "description": "Do Min-Joon, an alien that came to our planet 400 years ago, will be able to return to his planet in 3 months, but when he meets famous actress Chun Song-Yi, all the centuries he spent distancing himself from humans come to an end.",
+    "actors_names": [
+      "Hae-Jin Park",
+      "In-Na Yoo",
+      "Ji-Hyun Jun",
+      "Soo-hyun Kim"
+    ],
+    "writers_names": [],
+    "directors_names": [],
+    "genres_names": ["Drama", "Sci-Fi", "Comedy", "Fantasy", "Romance"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" }
+    ],
+    "actors": [
+      { "id": "3d4286b8-1389-46f6-bf35-b8c65cd76568", "name": "Hae-Jin Park" },
+      { "id": "28874c77-8b3e-4165-9592-e10233f0cef3", "name": "In-Na Yoo" },
+      { "id": "5fb718d5-2b58-4f7a-b162-24a6bd4532b5", "name": "Ji-Hyun Jun" },
+      { "id": "373a7423-0dd0-4585-8a93-938f82290e61", "name": "Soo-hyun Kim" }
+    ],
+    "writers": [],
+    "directors": []
+  },
+  {
+    "_index": "movies",
+    "_id": "d77e45fc-2b84-442f-b652-caf31cb07c80",
+    "_type": "_doc",
+    "id": "d77e45fc-2b84-442f-b652-caf31cb07c80",
+    "imdb_rating": 8.1,
+    "title": "Robot Chicken: Star Wars",
+    "description": "The first of three Star Wars themed Robot Chicken parodies.",
+    "actors_names": [
+      "Abraham Benrubi",
+      "Candace Bailey",
+      "Bob Bergen",
+      "Seth Green"
+    ],
+    "writers_names": [
+      "Seth Green",
+      "Douglas Goldstein",
+      "Hugh Sterbakov",
+      "Jordan Allen-Dutton",
+      "Erik Weiner",
+      "Matthew Senreich",
+      "Charles Horn",
+      "Tom Root",
+      "Breckin Meyer",
+      "Mike Fasolo"
+    ],
+    "directors_names": ["Seth Green"],
+    "genres_names": [
+      "Animation",
+      "Adventure",
+      "Sci-Fi",
+      "Comedy",
+      "Short",
+      "Family"
+    ],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395", "name": "Short" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      {
+        "id": "ed63a508-4f7c-4dc6-84c3-482f4d08a582",
+        "name": "Abraham Benrubi"
+      },
+      {
+        "id": "06761395-7fbb-4eb7-a300-f47eea195cd4",
+        "name": "Candace Bailey"
+      },
+      { "id": "a44906b1-3994-492a-9dbc-3d11d3a7a273", "name": "Bob Bergen" },
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" }
+    ],
+    "writers": [
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" },
+      {
+        "id": "0d0ff97b-55e6-4ddb-b359-5756de5f7a35",
+        "name": "Douglas Goldstein"
+      },
+      {
+        "id": "7c2cfc02-7b5a-40b7-ab1e-fef6cbc156c8",
+        "name": "Hugh Sterbakov"
+      },
+      {
+        "id": "7bb4b52e-e934-42c6-a77b-3bbdb503ac94",
+        "name": "Jordan Allen-Dutton"
+      },
+      { "id": "068b4770-9b78-408b-96e4-dd8e9d824004", "name": "Erik Weiner" },
+      {
+        "id": "d5999be7-73a0-4c46-b398-32cb0aba019a",
+        "name": "Matthew Senreich"
+      },
+      { "id": "929cee8b-76bc-4af4-8512-264cfabf4c45", "name": "Charles Horn" },
+      { "id": "39394052-60a4-4b01-a41b-f443c3125f1c", "name": "Tom Root" },
+      { "id": "9f88e9dd-4983-4878-8d87-3b2597bc9c2d", "name": "Breckin Meyer" },
+      { "id": "533054ae-7bfc-48e8-8cb0-2fe18d28431b", "name": "Mike Fasolo" }
+    ],
+    "directors": [
+      { "id": "46befdf3-165c-46b3-b1ae-2356af4f8392", "name": "Seth Green" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "c20959d2-daca-4cb2-a104-e1ab63479da3",
+    "_type": "_doc",
+    "id": "c20959d2-daca-4cb2-a104-e1ab63479da3",
+    "imdb_rating": 7.2,
+    "title": "Voices of a Distant Star",
+    "description": "The story of the high school students Mikako Nagamine and Noboru Terao. When the alien Tarsians attack, Mikako volunteers to be a pilot in the space force that will protect mankind. The lovers try to remain in contact using cellular telephone text messages, but as each battle takes Mikako further from the Earth, each message takes longer to arrive. Will their love stand the tests of time and distance?",
+    "actors_names": [
+      "Chihiro Suzuki",
+      "Sumi Mutoh",
+      "Makoto Shinkai",
+      "Mika Shinohara"
+    ],
+    "writers_names": ["Makoto Shinkai"],
+    "directors_names": ["Makoto Shinkai"],
+    "genres_names": ["Animation", "Drama", "Sci-Fi", "Short", "Romance"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395", "name": "Short" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" }
+    ],
+    "actors": [
+      {
+        "id": "6c9ae6e9-43c3-4d5c-b857-49c26c61ffba",
+        "name": "Chihiro Suzuki"
+      },
+      { "id": "f12a07e5-6da5-4c16-8b0f-c42f7b13c52f", "name": "Sumi Mutoh" },
+      {
+        "id": "74a4e5ce-5fa7-4f62-aad6-7b529e0cd96e",
+        "name": "Makoto Shinkai"
+      },
+      { "id": "ab890976-8022-464a-ad14-35de35bee244", "name": "Mika Shinohara" }
+    ],
+    "writers": [
+      { "id": "74a4e5ce-5fa7-4f62-aad6-7b529e0cd96e", "name": "Makoto Shinkai" }
+    ],
+    "directors": [
+      { "id": "74a4e5ce-5fa7-4f62-aad6-7b529e0cd96e", "name": "Makoto Shinkai" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "db5dcded-29da-4c96-91a2-df1407f0a80a",
+    "_type": "_doc",
+    "id": "db5dcded-29da-4c96-91a2-df1407f0a80a",
+    "imdb_rating": 7.5,
+    "title": "Star Trek: The Animated Series",
+    "description": "This animated series continues the adventures of the USS Enterprise, taking advantage of the visual freedom of animation to present stories with more alien elements.",
+    "actors_names": [
+      "DeForest Kelley",
+      "Leonard Nimoy",
+      "William Shatner",
+      "George Takei"
+    ],
+    "writers_names": ["Gene Roddenberry"],
+    "directors_names": [],
+    "genres_names": ["Animation", "Adventure", "Sci-Fi", "Action", "Family"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      {
+        "id": "836bb95b-6db8-4418-a110-f41663b1c025",
+        "name": "DeForest Kelley"
+      },
+      { "id": "5a3d0299-2df2-4070-9fda-65ff4dfa863c", "name": "Leonard Nimoy" },
+      {
+        "id": "9758b894-57d7-465d-b657-c5803dd5b7f7",
+        "name": "William Shatner"
+      },
+      { "id": "a4fc2b18-b89b-47f5-8d11-8b26e26fcdb9", "name": "George Takei" }
+    ],
+    "writers": [
+      {
+        "id": "6960e2ca-889f-41f5-b728-1e7313e54d6c",
+        "name": "Gene Roddenberry"
+      }
+    ],
+    "directors": []
+  },
+  {
+    "_index": "movies",
+    "_id": "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+    "_type": "_doc",
+    "id": "da7941cf-3be4-4f0b-a27e-649f18b4e8e9",
+    "imdb_rating": 6.2,
+    "title": "A Star Is Born",
+    "description": "Talented rock star John Norman Howard has seen his career begin to decline. Too many years of concerts and managers and life on the road have made him cynical and the monotony has taken its toll. Then he meets the innocent, pure and very talented singer Esther Hoffman. As one of his songs in the movie says \"I'm gonna take you girl, I'm gonna show you how.\" And he does. He shows Esther the way to stardom while forsaking his own career. As they fall in love, her success only makes his decline even more apparent.",
+    "actors_names": [
+      "Kris Kristofferson",
+      "Gary Busey",
+      "Oliver Clark",
+      "Barbra Streisand"
+    ],
+    "writers_names": [
+      "William A. Wellman",
+      "John Gregory Dunne",
+      "Frank Pierson",
+      "Robert Carson",
+      "Joan Didion"
+    ],
+    "directors_names": ["Frank Pierson"],
+    "genres_names": ["Drama", "Music", "Romance"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "56b541ab-4d66-4021-8708-397762bff2d4", "name": "Music" },
+      { "id": "237fd1e4-c98e-454e-aa13-8a13fb7547b5", "name": "Romance" }
+    ],
+    "actors": [
+      {
+        "id": "0d321988-0de5-462c-9f28-95b4f97e7529",
+        "name": "Kris Kristofferson"
+      },
+      { "id": "66890a7f-082a-470a-a3c9-a299c11dd107", "name": "Gary Busey" },
+      { "id": "9dc43c2b-cb68-4734-897d-d9a5893f1626", "name": "Oliver Clark" },
+      {
+        "id": "396daa5e-d4f8-4ed1-a574-f8b6414fdfba",
+        "name": "Barbra Streisand"
+      }
+    ],
+    "writers": [
+      {
+        "id": "5ac68e18-a84c-4a98-a2ba-85d1bc85e0a4",
+        "name": "William A. Wellman"
+      },
+      {
+        "id": "2b0f84fb-416b-4c30-80db-69478bf872be",
+        "name": "John Gregory Dunne"
+      },
+      { "id": "e31f6518-6f0a-4738-a224-211eb4150e13", "name": "Frank Pierson" },
+      { "id": "e259d88e-b693-436a-9fed-a10204b8fd91", "name": "Robert Carson" },
+      { "id": "f24f3fa4-2e42-4dde-be8c-2aba541a593b", "name": "Joan Didion" }
+    ],
+    "directors": [
+      { "id": "e31f6518-6f0a-4738-a224-211eb4150e13", "name": "Frank Pierson" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "2a090dde-f688-46fe-a9f4-b781a985275e",
+    "_type": "_doc",
+    "id": "2a090dde-f688-46fe-a9f4-b781a985275e",
+    "imdb_rating": 9.6,
+    "title": "Star Wars: Knights of the Old Republic",
+    "description": "Four thousand years before the fall of the Republic, before the fall of the Jedi, a great war was fought, between the armies of the Sith and the forces of the Republic. A warrior is chosen to rescue a Jedi with a power important to the cause of the Republic, but in the end, will the warrior fight for the Light Side of the Force, or succumb to the Darkness?",
+    "actors_names": [
+      "Rafael Ferrer",
+      "Raphael Sbarge",
+      "Jennifer Hale",
+      "John Cygan"
+    ],
+    "writers_names": [
+      "Michael Gallo",
+      "Drew Karpyshyn",
+      "Peter Thomas",
+      "Brett Rector",
+      "Lukas Kristjanson",
+      "Lynn Taylor",
+      "David Gaider",
+      "James Ohlen"
+    ],
+    "directors_names": ["Casey Hudson"],
+    "genres_names": ["Action", "Adventure", "Fantasy"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" }
+    ],
+    "actors": [
+      { "id": "578593ee-3268-4cd4-b910-8a44cfd05b73", "name": "Rafael Ferrer" },
+      {
+        "id": "bccbbbb6-be40-44f5-a025-204bcfcf2667",
+        "name": "Raphael Sbarge"
+      },
+      { "id": "00395304-dd52-4c7b-be0d-c2cd7a495684", "name": "Jennifer Hale" },
+      { "id": "2802ff93-f147-49cc-a38b-2f787bd2b875", "name": "John Cygan" }
+    ],
+    "writers": [
+      { "id": "1e8d746d-72d2-4da2-ad20-651154cfb158", "name": "Michael Gallo" },
+      {
+        "id": "63a787ba-dd3f-4176-a894-9970b5c43a12",
+        "name": "Drew Karpyshyn"
+      },
+      { "id": "91c4ca66-e3e1-4932-8447-aadd67fd67b1", "name": "Peter Thomas" },
+      { "id": "f7337af0-21aa-445f-aecf-4794c0faa811", "name": "Brett Rector" },
+      {
+        "id": "1bc82e3e-d9ea-4da0-a5ea-69ba20b94373",
+        "name": "Lukas Kristjanson"
+      },
+      { "id": "b29e255d-644d-4e16-9018-c1bcb49934e5", "name": "Lynn Taylor" },
+      { "id": "8778550c-90c6-4180-a6ac-eba956f0ce59", "name": "David Gaider" },
+      { "id": "61bffbdc-910e-47b9-8b04-43b5f27807b4", "name": "James Ohlen" }
+    ],
+    "directors": [
+      { "id": "1a9e7e1f-393b-455d-a76f-d3ad2b33673e", "name": "Casey Hudson" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "ea434935-cb62-4012-9138-be74435890cd",
+    "_type": "_doc",
+    "id": "ea434935-cb62-4012-9138-be74435890cd",
+    "imdb_rating": 8.0,
+    "title": "Star vs. the Forces of Evil",
+    "description": "An interdimensional princess, from the kingdom of Mewni, named Star Butterfly is sent to a new dimension, the Earth dimension, to learn how to use her newest possession, the royal family wand, and she finds help along the way meeting an Earth boy named Marco Diaz, and she lives with Marco and his parents causing all kinds of interdimensional mischief.",
+    "actors_names": [
+      "Grey Griffin",
+      "Adam McArthur",
+      "Daron Nefcy",
+      "Eden Sher"
+    ],
+    "writers_names": ["Jordana Arkin", "David Wasson", "Daron Nefcy"],
+    "directors_names": [],
+    "genres_names": [
+      "Animation",
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Family",
+      "Thriller"
+    ],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" },
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" },
+      { "id": "526769d7-df18-4661-9aa6-49ed24e9dfd8", "name": "Thriller" }
+    ],
+    "actors": [
+      { "id": "b4e1b2bd-7f36-4322-8a96-0baecf121424", "name": "Grey Griffin" },
+      { "id": "6eada848-9bb2-4309-8250-90e20b82f0df", "name": "Adam McArthur" },
+      { "id": "91315ca2-e928-4bc3-aa20-4a9024fed936", "name": "Daron Nefcy" },
+      { "id": "fee27fee-19ea-4100-af1f-a2fd1ed85f0b", "name": "Eden Sher" }
+    ],
+    "writers": [
+      { "id": "57d6e028-3d65-4879-bb4e-d2c086c74898", "name": "Jordana Arkin" },
+      { "id": "13f1f970-08d3-442a-9b2c-dc3e54f47dde", "name": "David Wasson" },
+      { "id": "91315ca2-e928-4bc3-aa20-4a9024fed936", "name": "Daron Nefcy" }
+    ],
+    "directors": []
+  },
+  {
+    "_index": "movies",
+    "_id": "78efe505-6ef8-41f7-88ef-15840be2e680",
+    "_type": "_doc",
+    "id": "78efe505-6ef8-41f7-88ef-15840be2e680",
+    "imdb_rating": 6.7,
+    "title": "Star 80",
+    "description": "Paul Snider is a narcissistic, small time hustler who fancies himself a ladies man. His life changes when he meets Dorothy Stratten working behind the counter of a Dairy Queen. Dorothy is a pretty but naive high school senior. Paul immediately falls for Dorothy, who sees in Paul a wise, worldly person unlike herself. Paul believes Dorothy is Playboy material, the magazine he sees as only a springboard to bigger and better things. Paul's dream does become a reality: not only does Dorothy eventually marry him, she becomes the August 1979 Playboy Playmate and ultimately Playboy Playmate of 1979, which does indeed lead to the start of an acting career. As Dorothy's star rises, Paul's life is one of a hanger-on as those in Dorothy's new circle, including Playboy publisher Hugh M. Hefner and movie director Aram Nicholas, don't much like Paul. Paul is unable to eke out a life of his own without using Dorothy's name, which she increasingly is reluctant to provide to her husband. Those that know the couple know their relationship cannot continue as is, and it's only a matter of how it will change or end is the question.",
+    "actors_names": [
+      "Eric Roberts",
+      "Mariel Hemingway",
+      "Carroll Baker",
+      "Cliff Robertson"
+    ],
+    "writers_names": ["Teresa Carpenter", "Bob Fosse"],
+    "directors_names": ["Bob Fosse"],
+    "genres_names": ["Biography", "Drama"],
+    "genres": [
+      { "id": "ca124c76-9760-4406-bfa0-409b1e38d200", "name": "Biography" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      { "id": "451937f2-6d4d-4193-b5f3-90d054a1ca32", "name": "Eric Roberts" },
+      {
+        "id": "84ce7fac-3601-42a6-a69b-da82fcacd3dd",
+        "name": "Mariel Hemingway"
+      },
+      { "id": "c7edc3ef-8ae8-4fb2-9999-e33a96ef48ba", "name": "Carroll Baker" },
+      {
+        "id": "a6c6787c-c77a-457e-b188-c43cb31cc15b",
+        "name": "Cliff Robertson"
+      }
+    ],
+    "writers": [
+      {
+        "id": "14735c75-9ebc-4602-8363-21527b6cc25a",
+        "name": "Teresa Carpenter"
+      },
+      { "id": "ca0c00e3-9529-4a12-a27d-55d862f7b97b", "name": "Bob Fosse" }
+    ],
+    "directors": [
+      { "id": "ca0c00e3-9529-4a12-a27d-55d862f7b97b", "name": "Bob Fosse" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "e2db51c4-096c-44fd-bdf7-cbaa4052d808",
+    "_type": "_doc",
+    "id": "e2db51c4-096c-44fd-bdf7-cbaa4052d808",
+    "imdb_rating": 7.5,
+    "title": "Third Star",
+    "description": "James and his three closest lifelong friends go on an ill-advised trip to the stunning coastal area of Barafundle Bay in West Wales. What follows is a touching and comical adventure dealing with friendship, heroism and love.",
+    "actors_names": [
+      "JJ Feild",
+      "Adam Robertson",
+      "Benedict Cumberbatch",
+      "Tom Burke"
+    ],
+    "writers_names": ["Vaughan Sivell"],
+    "directors_names": ["Hattie Dalton"],
+    "genres_names": ["Drama"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      { "id": "f73ac319-bf21-4ea4-9935-59f636c4ef69", "name": "JJ Feild" },
+      {
+        "id": "546bd40b-b28f-465f-af3f-86dd1c17b501",
+        "name": "Adam Robertson"
+      },
+      {
+        "id": "7aa34083-cc2a-49dc-a504-b974e2f1cca1",
+        "name": "Benedict Cumberbatch"
+      },
+      { "id": "11484d80-608c-402d-87f2-cf48a8494a62", "name": "Tom Burke" }
+    ],
+    "writers": [
+      { "id": "280c2a00-3ff0-48c2-af84-307f1961b537", "name": "Vaughan Sivell" }
+    ],
+    "directors": [
+      { "id": "9a805c4c-0872-471c-ba91-94095bb25268", "name": "Hattie Dalton" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "1eb9cc6b-879f-4160-8971-918ecbe47a87",
+    "_type": "_doc",
+    "id": "1eb9cc6b-879f-4160-8971-918ecbe47a87",
+    "imdb_rating": 7.7,
+    "title": "Star",
+    "description": "The Driver now carries an arrogant rock star who is visiting a major city (not Pittsburgh as earlier believed). Played by Madonna, this title character wants to get away from her bodyguards in the Driver's BMW. He soon gets tired of her and decides to have a bit of fun.",
+    "actors_names": [
+      "Toru Tanaka Jr.",
+      "Clive Owen",
+      "Michael Beattie",
+      "DTeflon"
+    ],
+    "writers_names": ["Guy Ritchie", "Joe Sweet"],
+    "directors_names": ["Guy Ritchie"],
+    "genres_names": ["Action", "Comedy", "Short"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "a886d0ec-c3f3-4b16-b973-dedcf5bfa395", "name": "Short" }
+    ],
+    "actors": [
+      {
+        "id": "a35bd08b-acf0-4701-a967-92a0ca61ce62",
+        "name": "Toru Tanaka Jr."
+      },
+      { "id": "7a22eed2-50af-4e4d-aae8-6eee6cd27e07", "name": "Clive Owen" },
+      {
+        "id": "8ab1b385-c186-463b-8d97-30e67492aa60",
+        "name": "Michael Beattie"
+      },
+      { "id": "077ade46-00a6-4199-8c7a-43a84733b8ef", "name": "DTeflon" }
+    ],
+    "writers": [
+      { "id": "0ec9b6a8-27f9-47b2-8a51-15ae7a1a136d", "name": "Guy Ritchie" },
+      { "id": "261894a1-bbf6-4779-bd88-c121fdab661c", "name": "Joe Sweet" }
+    ],
+    "directors": [
+      { "id": "0ec9b6a8-27f9-47b2-8a51-15ae7a1a136d", "name": "Guy Ritchie" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "1145f9ee-5344-4e57-81d0-5b085f3d0808",
+    "_type": "_doc",
+    "id": "1145f9ee-5344-4e57-81d0-5b085f3d0808",
+    "imdb_rating": 7.3,
+    "title": "Tin Star",
+    "description": "Ex undercover UK cop turned police chief of a small town in the Canadian Rockies does what he must to defend his family from those in power whether it's the oilmen, the preachers or the gangsters.",
+    "actors_names": [
+      "Tim Roth",
+      "Abigail Lawrie",
+      "Christina Hendricks",
+      "Genevieve O'Reilly"
+    ],
+    "writers_names": [],
+    "directors_names": [],
+    "genres_names": ["Thriller", "Crime", "Drama"],
+    "genres": [
+      { "id": "526769d7-df18-4661-9aa6-49ed24e9dfd8", "name": "Thriller" },
+      { "id": "63c24835-34d3-4279-8d81-3c5f4ddb0cdc", "name": "Crime" },
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" }
+    ],
+    "actors": [
+      { "id": "354604df-60a4-4c9d-b6fb-25dd33991149", "name": "Tim Roth" },
+      {
+        "id": "533c5cdd-a9ef-4345-a9b5-02b6382d78c8",
+        "name": "Abigail Lawrie"
+      },
+      {
+        "id": "c05bfb01-60d1-42c7-b372-62bc0a916abf",
+        "name": "Christina Hendricks"
+      },
+      {
+        "id": "b6cddc61-5050-461d-abde-dfe5339960cf",
+        "name": "Genevieve O'Reilly"
+      }
+    ],
+    "writers": [],
+    "directors": []
+  },
+  {
+    "_index": "movies",
+    "_id": "b74a0e51-293b-4b76-9a96-0f5af7dc2030",
+    "_type": "_doc",
+    "id": "b74a0e51-293b-4b76-9a96-0f5af7dc2030",
+    "imdb_rating": 6.3,
+    "title": "The Star Chamber",
+    "description": "Disgusted with criminals escaping the judicial system via technicalities, an idealistic young judge investigates an alternative method for punishing the guilty.",
+    "actors_names": [
+      "Michael Douglas",
+      "Sharon Gless",
+      "Yaphet Kotto",
+      "Hal Holbrook"
+    ],
+    "writers_names": ["Roderick Taylor", "Peter Hyams"],
+    "directors_names": ["Peter Hyams"],
+    "genres_names": ["Drama", "Mystery", "Crime", "Thriller"],
+    "genres": [
+      { "id": "1cacff68-643e-4ddd-8f57-84b62538081a", "name": "Drama" },
+      { "id": "ca88141b-a6b4-450d-bbc3-efa940e4953f", "name": "Mystery" },
+      { "id": "63c24835-34d3-4279-8d81-3c5f4ddb0cdc", "name": "Crime" },
+      { "id": "526769d7-df18-4661-9aa6-49ed24e9dfd8", "name": "Thriller" }
+    ],
+    "actors": [
+      {
+        "id": "a1001735-1c1b-4c77-98b0-c9bca4b61406",
+        "name": "Michael Douglas"
+      },
+      { "id": "29240b5a-d29c-45d4-b757-a2d10636d86c", "name": "Sharon Gless" },
+      { "id": "d78a3490-c248-40c8-93df-d0cb87ca0d2f", "name": "Yaphet Kotto" },
+      { "id": "59f33c50-3c5e-4d7f-b748-91c552136490", "name": "Hal Holbrook" }
+    ],
+    "writers": [
+      {
+        "id": "92f98096-b8e3-4df1-8ceb-e92cc8f913ff",
+        "name": "Roderick Taylor"
+      },
+      { "id": "6bd0e9f4-7ce9-4b34-922b-3fe05ada9427", "name": "Peter Hyams" }
+    ],
+    "directors": [
+      { "id": "6bd0e9f4-7ce9-4b34-922b-3fe05ada9427", "name": "Peter Hyams" }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "58fd971d-4550-4164-8428-06f9a19f93cc",
+    "_type": "_doc",
+    "id": "58fd971d-4550-4164-8428-06f9a19f93cc",
+    "imdb_rating": 6.6,
+    "title": "Star Wreck: In the Pirkinning",
+    "description": "The future looks bleak for Captain Pirk. Originally from the far future, he traveled back to save the world, but was shipwrecked on the 21st century. The world of the past is a dangerous place and he is finding it difficult to convince the ladies he is, in fact, an intergalactic space hero from the future. To make things right Pirk comes up with a questionable plan to save mankind's future...",
+    "actors_names": [
+      "Timo Vuorensola",
+      "Tiina Routamaa",
+      "Antti Satama",
+      "Samuli Torssonen"
+    ],
+    "writers_names": ["Jarmo Puskala", "Rudi Airisto", "Samuli Torssonen"],
+    "directors_names": ["Timo Vuorensola"],
+    "genres_names": ["Action", "Comedy", "Sci-Fi"],
+    "genres": [
+      { "id": "3d8d9bf5-0d90-4353-88ba-4ccc5d2c07ff", "name": "Action" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "6c162475-c7ed-4461-9184-001ef3d9f26e", "name": "Sci-Fi" }
+    ],
+    "actors": [
+      {
+        "id": "28bfd936-6e9e-48d8-930c-d11c88fb5013",
+        "name": "Timo Vuorensola"
+      },
+      {
+        "id": "747a0f20-cac2-4032-9045-077632da14e4",
+        "name": "Tiina Routamaa"
+      },
+      { "id": "a1d3cfe9-dd23-4998-87b5-22bb5b1d36e4", "name": "Antti Satama" },
+      {
+        "id": "2ede5838-9b45-4ba0-a369-dc7acce459bc",
+        "name": "Samuli Torssonen"
+      }
+    ],
+    "writers": [
+      { "id": "0ff3647e-f08f-451d-b653-88d224ac24de", "name": "Jarmo Puskala" },
+      { "id": "ca2c7a3d-7583-4d57-80c2-ffc1a27282e5", "name": "Rudi Airisto" },
+      {
+        "id": "2ede5838-9b45-4ba0-a369-dc7acce459bc",
+        "name": "Samuli Torssonen"
+      }
+    ],
+    "directors": [
+      {
+        "id": "28bfd936-6e9e-48d8-930c-d11c88fb5013",
+        "name": "Timo Vuorensola"
+      }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "996262ef-e565-426a-a25e-c6863eff474d",
+    "_type": "_doc",
+    "id": "996262ef-e565-426a-a25e-c6863eff474d",
+    "imdb_rating": 6.2,
+    "title": "The Star",
+    "description": "In Sony Pictures Animation's THE STAR, a small but brave donkey named Bo yearns for a life beyond his daily grind at the village mill. One day he finds the courage to break free, and finally goes on the adventure of his dreams. On his journey, he teams up with Ruth, a lovable sheep who has lost her flock and Dave, a dove with lofty aspirations. Along with three wisecracking camels and some eccentric stable animals, Bo and his new friends follow the Star and become accidental heroes in the greatest story ever told - the first Christmas.",
+    "actors_names": [
+      "Aidy Bryant",
+      "Gina Rodriguez",
+      "Keegan-Michael Key",
+      "Steven Yeun"
+    ],
+    "writers_names": ["Carlos Kotkin", "Simon Moore"],
+    "directors_names": ["Timothy Reckart"],
+    "genres_names": ["Animation", "Adventure", "Comedy", "Fantasy", "Family"],
+    "genres": [
+      { "id": "6a0a479b-cfec-41ac-b520-41b2b007b611", "name": "Animation" },
+      { "id": "120a21cf-9097-479e-904a-13dd7198c1dd", "name": "Adventure" },
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      { "id": "26b6e17c-dc91-48f2-98d5-43c6c237ed1f", "name": "Aidy Bryant" },
+      {
+        "id": "bad27d2d-8ebc-4451-baa9-b10bed76aaf9",
+        "name": "Gina Rodriguez"
+      },
+      {
+        "id": "bdc1aa69-073d-41c3-be14-4027301701c0",
+        "name": "Keegan-Michael Key"
+      },
+      { "id": "a5e69b9f-6d81-422c-9083-b4efc7306ebc", "name": "Steven Yeun" }
+    ],
+    "writers": [
+      { "id": "b445b44e-3be4-4f05-96cf-6eda6a874cfb", "name": "Carlos Kotkin" },
+      { "id": "8be498d3-b415-4822-b5ce-65844dfa602a", "name": "Simon Moore" }
+    ],
+    "directors": [
+      {
+        "id": "4e6601a8-57b5-4e6c-b3eb-d7a17537d520",
+        "name": "Timothy Reckart"
+      }
+    ]
+  },
+  {
+    "_index": "movies",
+    "_id": "96c5ff26-b615-408a-a144-137664907c48",
+    "_type": "_doc",
+    "id": "96c5ff26-b615-408a-a144-137664907c48",
+    "imdb_rating": 6.7,
+    "title": "Wish Upon a Star",
+    "description": "Handsome, considerate high-school jock Kyle Harding is the only taste the Wheaton sisters share. Tall, fashionable, popular airhead big sister is dating him, but fails to truly appreciate the young gentleman, let alone contemplate a serious relationship. Nerdy kid sister Haley hates the waste and expresses her envy by thoughtlessly wishing at a 'shooting star' (comet) to be Alexia. To their stupor, that happens the next morning. Forced to live each-other's lives, but unable to do it well by the other's standards, the sisters soon hate each-other even more and deliberately screw up. Gradually, they realize they would only both lose out, learn to appreciate the other's values and reconsider their own. Remain the matters of obviously utterly confused Kyle, and new neighbor boy Simon, whose no longer secret crush on Haley was confounded by Alexia.",
+    "actors_names": [
+      "Danielle Harris",
+      "Donnie Jeffcoat",
+      "Scott Wilkinson",
+      "Katherine Heigl"
+    ],
+    "writers_names": ["Jessica Barondes"],
+    "directors_names": ["Blair Treu"],
+    "genres_names": ["Comedy", "Fantasy", "Family"],
+    "genres": [
+      { "id": "5373d043-3f41-4ea8-9947-4b746c601bbd", "name": "Comedy" },
+      { "id": "b92ef010-5e4c-4fd0-99d6-41b6456272cd", "name": "Fantasy" },
+      { "id": "55c723c1-6d90-4a04-a44b-e9792040251a", "name": "Family" }
+    ],
+    "actors": [
+      {
+        "id": "99eed44f-54d7-4c31-81d1-bc9f5d965a14",
+        "name": "Danielle Harris"
+      },
+      {
+        "id": "19ee6e76-9240-46f6-9de8-dad16b9d9140",
+        "name": "Donnie Jeffcoat"
+      },
+      {
+        "id": "a577af4c-08f7-4b4f-9b38-b4703f4c8fcd",
+        "name": "Scott Wilkinson"
+      },
+      {
+        "id": "c164012d-2e2f-40f7-9efd-3d33a03047da",
+        "name": "Katherine Heigl"
+      }
+    ],
+    "writers": [
+      {
+        "id": "f0005f93-08fa-439f-9002-7a0b8a97f5eb",
+        "name": "Jessica Barondes"
+      }
+    ],
+    "directors": [
+      { "id": "2ac23364-397a-49e8-93c3-39f8d632e071", "name": "Blair Treu" }
+    ]
+  }
+]
+

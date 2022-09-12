@@ -1,0 +1,29 @@
+@startuml
+skinparam guillemet false
+skinparam componentStyle rectangle
+
+actor Пользователь as User
+component "Голосовой ассистент" as Device << Устройство >>
+component "Яндекс.Диалоги" as Platform
+component "Async App" as Async << Поиск фильмов >>
+component "Auth App" as Auth << Авторизация >>
+component "Notice App" as Notice << Уведомления >>
+component "UGC App" as UGC << Контент пользователя >>
+component "Recommendation App" as Recommendation << Рекомендательная система >>
+
+package "Assistant App" {
+    component Assistant << Webhook URL >>
+    database Redis as Assistant_DB
+}
+
+User <--> Device: Голос
+Device <--> Platform: ASR/TTS
+Platform <--> Assistant
+
+Assistant --> Assistant_DB
+Assistant <-left-> Auth: gRPC
+Assistant <-right-> Async: REST
+Assistant <--> UGC: REST
+Assistant <--> Recommendation: REST
+Assistant <--> Notice: REST
+@enduml

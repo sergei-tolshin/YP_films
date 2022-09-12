@@ -1,0 +1,29 @@
+@startuml
+
+participant Клиент as Client
+participant Auth_web_app as Flask
+participant PostgreSQL as DB
+participant Redis
+
+
+autonumber 1
+group Регистрация
+    Client -> Flask: Запрос регистрация
+    Flask -> DB: Запись пользователя
+end
+autonumber 1
+group Авторизация
+    Client -> Flask: Запрос на авторизацию (логин, пароль)
+    Flask -> DB: Проверка пользователя
+    Flask -> Flask: Генерация JWT tokens
+    Flask --> Client: JWT tokens (Access, Refresh)
+end
+autonumber 1
+group Обновление токена
+    Client -> Flask: Запрос на обновление токена (JWT refresh)
+    Flask -> Redis: Проверка JWT refresh
+    Flask -> Flask: Генерация новых JWT tokens
+    Flask --> Client: New JWT tokens (Access, Refresh)
+
+end
+@enduml

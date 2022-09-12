@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  vertica-db-test:
+    image: jbfavre/vertica:latest
+    ports:
+      - '5433:5433'
+
+  vertica-test-script:
+    build: ./
+    volumes:
+      - ../results:/results
+      - ../test_data:/test_data
+    environment:
+      - CONNECTION_VERTICA_HOST=vertica-db-test
+    depends_on:
+      - vertica-db-test
+    restart: on-failure
+    entrypoint: [ "./wait-for-it.sh", "-s" ,"-t", "60", "vertica-db-test:5433", "--" ]
+    command: [ "python", "vertica_test.py" ]

@@ -1,0 +1,60 @@
+@startuml
+skinparam componentStyle rectangle
+
+actor Пользователь as Client
+actor Администратор as Admin
+actor Аналитик_данных as Analyst
+
+component NGINX as NGINX1
+component NGINX as NGINX2
+
+
+package "Admin_panel" {
+component Django_app as Django
+database PostgresSQL as Film_DB
+}
+
+package "REST" {
+component ETL_PostgresSQL_Elastic as ETL_REST
+component Fast_API_app as Fast
+database ElasticSearch
+database Redis as Redis_fast_api
+}
+
+package "Auth" {
+component Flask_Auth_service as Flask
+database PostgresSQL as Auth_DB
+database Redis as Redis_flask_api
+}
+
+package "UGC" {
+component Kafka
+component UGC_API
+component ETL_Kafka_ClickHouse as ETL_UGC
+database ClickHouse as UGC_DB
+}
+
+
+Admin --> NGINX1
+NGINX1 --> Django
+Django --> Film_DB
+
+ETL_REST --> Film_DB
+ETL_REST --> ElasticSearch
+Fast --> ElasticSearch
+Fast --> Redis_fast_api
+Client --> NGINX2
+NGINX2 --> Fast
+Fast -right-> Flask
+
+Flask --> Auth_DB
+Flask --> Redis_flask_api
+NGINX2 --> Flask
+
+NGINX2 -up-> UGC_API: gRPC
+ETL_UGC -> Kafka
+ETL_UGC -up-> UGC_DB
+Analyst --> UGC_DB
+UGC_API -left-> Kafka
+UGC_API --> Flask
+@enduml

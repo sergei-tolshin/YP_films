@@ -1,0 +1,32 @@
+tags:
+  - Roles
+summary: Change role item
+definitions:
+  import: "api/v1/docs/definitions.yml"
+parameters:
+  - name: role_id
+    in: path
+    type: string
+    format: uuid
+    required: true
+  - name: access_token
+    in: cookie
+    type: string
+    required: true    
+  - name: name
+    in: body
+    type: string
+    required: true
+responses:
+  200:
+    description: Role patched
+    schema:
+      $ref: '#/definitions/Role'
+  400:
+    description: name not unique
+  401:
+    description: Not authorized you don't have access yet
+  403:
+    description: User not having the necessary permissions
+  404:
+    description: Not found

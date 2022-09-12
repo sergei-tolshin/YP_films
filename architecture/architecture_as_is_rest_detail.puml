@@ -1,0 +1,19 @@
+@startuml
+
+participant Клиент as Client
+participant Fast_API_web_app as Fast
+participant ElasticSearch as DB
+participant Redis
+participant Auth_web_app as Flask
+
+autonumber 1
+    Client -> Fast: Запрос фильма (JWT tokens)
+    Fast -> Flask: Запрос проверки токенов
+    Flask -> Flask: Проврека токена
+    Flask --> Fast: Роли и уровень доступа
+    Fast -> DB: Получить фильма
+    Fast -> Fast: Сравнение уровня доступа пользователя и фильма
+    Fast -> Redis: Кеширование ответа
+    Fast -> Client: Ответ с фильмом
+
+@enduml

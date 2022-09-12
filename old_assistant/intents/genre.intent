@@ -1,0 +1,27 @@
+slots:
+    title:
+        source: $MovieName
+    type:
+        type: VideoType
+        source: $MovieType
+
+root:
+    [$Genre (снят)* ($MovieType)* ($MovieName)*]
+
+$Genre:
+    %lemma
+    жанр
+
+$MovieType:
+    $VideoType
+$MovieName:
+    .+
+
+filler:
+    %lemma
+    Алиса
+    в
+    у
+    какой
+    каком
+    снят

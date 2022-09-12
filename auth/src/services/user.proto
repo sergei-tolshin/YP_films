@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package user;
+
+service User {
+  rpc GetInfo (UserInfoRequest) returns (UserInfoReply) {};
+  rpc GetName (UserViewRequest) returns (UserViewReply) {};
+}
+
+message UserInfoRequest {
+  string access_token = 1;
+  string refresh_token = 2;
+}
+
+message UserInfoReply {
+  string roles = 1;
+  int32 permission_level = 2;
+}
+
+message UserViewRequest {
+  string access_token = 1;
+}
+
+message UserViewReply {
+  string username = 1;
+}

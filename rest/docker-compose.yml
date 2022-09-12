@@ -1,0 +1,72 @@
+version: '3.9'
+
+x-variables: &variables
+  RTEST_REDIS__HOST: movies-redis-test
+  RTEST_REDIS__PORT: 6379
+  RTEST_ELASTIC__HOST: elastic-test
+  RTEST_ELASTIC__PORT: 9200
+  RTEST_REST__HOST: movies-rest-test
+  RTEST_REST__PORT: 8000
+
+  REDIS_HOST: movies-redis-test
+  REDIS_PORT: 6379
+
+  ELASTIC_HOST: elastic-test
+  ELASTIC_PORT: 9200
+
+services:
+  movies-redis-test:
+    image: redis:latest
+    healthcheck:
+      test: redis-cli ping
+      interval: 5s
+      timeout: 3s
+    ports:
+      - 6379:6379
+
+  elastic-test:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+    environment:
+      discovery.type: single-node
+    ports:
+      - 9200:9200
+    healthcheck:
+      test:  curl -s -f localhost:9200/_cat/health >/dev/null || exit 1
+      interval: 5s
+      timeout: 3s
+
+  movies-rest-test:
+    build:
+      context: ./
+    environment: *variables
+    #  а говорили, что больше не поддерживают, тем-не-менее:
+    #  https://github.com/compose-spec/compose-spec/blob/master/spec.md
+    depends_on:
+      elastic-test:
+        condition: service_healthy
+      movies-redis-test:
+        condition: service_healthy
+    healthcheck:
+      test:  curl -s -f localhost:8000/api/openapi >/dev/null || exit 1
+      interval: 10s
+      timeout: 3s
+    ports:
+      - 8000:8000
+
+  movies-test:
+    build:
+      context: ./
+      target: test
+    environment: *variables
+    depends_on:
+      movies-rest-test:
+        condition: service_healthy
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.16.3
+    environment:
+      ELASTICSEARCH_HOSTS: http://elastic-test:9200
+    depends_on:
+      - elastic-test
+    ports:
+      - 5601:5601

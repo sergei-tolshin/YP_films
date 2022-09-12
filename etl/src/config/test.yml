@@ -1,0 +1,54 @@
+---
+fetch_delay: 0.1
+
+elastic:
+  host: 127.0.0.1
+  port: 9200
+pg:
+  dsn:
+    dbname: movies_database
+    host: db
+    port: 5432
+
+extraction_schema:
+  film:
+    limit: 100
+    main_extraction_table: content.film_work
+    query_templates:
+      related: "templates/related.sql"
+      updated: "templates/updated.sql"
+      extract: "templates/film_extract.sql"
+
+    related_tables:
+      - table_name: content.genre
+        relations_table: content.genre_film_work
+        related_id: film_work_id
+        updated_id: genre_id
+      - table_name: content.person
+        relations_table: content.person_film_work
+        related_id: film_work_id
+        updated_id: person_id
+
+  genre:
+    limit: 100
+    main_extraction_table: content.genre
+
+    related_tables:
+
+    query_templates:
+      related: "templates/related.sql"
+      updated: "templates/updated.sql"
+      extract: "templates/genre_extract.sql"
+
+  person:
+    limit: 200
+    main_extraction_table: content.person
+    related_tables:
+      - table_name: content.film_work
+        relations_table: content.person_film_work
+        related_id: person_id
+        updated_id: film_work_id
+    query_templates:
+      related: "templates/related.sql"
+      updated: "templates/updated.sql"
+      extract: "templates/person_extract.sql"

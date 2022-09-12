@@ -1,0 +1,48 @@
+version: '3.5'
+
+services:
+  zookeeper:
+    image: zookeeper:3.5
+    container_name: etl-zookeeper
+    hostname: etl-zookeeper
+
+  clickhouse-node1:
+    image: yandex/clickhouse-server:20.4
+    container_name: etl-clickhouse-node1
+    hostname: clickhouse-node1
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    volumes:
+      - ./etl_kafka/schema/shard1.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./etl_kafka/data/node1:/etc/clickhouse-server
+    depends_on:
+      - zookeeper
+
+  clickhouse-node2:
+    image: yandex/clickhouse-server:20.4
+    container_name: etl-clickhouse-node2
+    hostname: clickhouse-node2
+    volumes:
+      - ./etl_kafka/data/node2:/etc/clickhouse-server
+    depends_on:
+      - zookeeper
+
+  clickhouse-node3:
+    image: yandex/clickhouse-server:20.4
+    container_name: etl-clickhouse-node3
+    hostname: clickhouse-node3
+    volumes:
+      - ./etl_kafka/schema/shard2.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./etl_kafka/data/node3:/etc/clickhouse-server
+    depends_on:
+      - zookeeper
+
+  clickhouse-node4:
+    image: yandex/clickhouse-server:20.4
+    container_name: etl-clickhouse-node4
+    hostname: clickhouse-node4
+    volumes:
+      - ./etl_kafka/data/node4:/etc/clickhouse-server
+    depends_on:
+      - zookeeper

@@ -1,0 +1,34 @@
+@startuml
+
+participant Клиент as Client
+participant UGC_API_web_app as Fast
+participant Auth_web_app as Flask
+participant Kafka
+participant ETL
+participant ClickHouse as DB
+participant Аналитик_данных as Analyst
+
+autonumber 1
+group Сохранение временной метки
+    Client -> Fast: Запрос с временной меткой (JWT tokens)
+    Fast -> Flask: Запрос на получение username из JWT token (gRPC)
+    Flask -> Flask: Получение username из JWT token
+    Flask --> Fast: username
+    Fast -> Kafka: Cохранение временной метки с ключом (username+film_id)
+    ETL -> Kafka: Чтение данных
+    ETL -> ETL: Трансформация данных
+    ETL -> DB: Сохранение данных в базе
+end
+group Получение временной метки
+    Client -> Fast: Запрос на временную метку (JWT tokens)
+    Fast -> Flask: Запрос на получение username из JWT token
+    Flask -> Flask: Получение username из JWT token
+    Flask --> Fast: username
+    Fast -> DB: Получение временной метки для username и film_id
+    Fast --> Client: Временная метка пользоватля в фильме
+end
+group Получение аналитики
+    Analyst -> DB: Запрос данных
+    DB --> Analyst: Данные
+end
+@enduml

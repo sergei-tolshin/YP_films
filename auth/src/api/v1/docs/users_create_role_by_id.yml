@@ -1,0 +1,27 @@
+tags:
+  - Users
+summary: Add role to user
+parameters:
+  - name: user_id
+    in: path
+    type: string
+    format: uuid
+    required: true
+  - name: role_id
+    in: path
+    type: string
+    format: uuid
+    required: true
+  - name: access_token
+    in: cookie
+    type: string
+    required: true
+responses:
+  200:
+    description: Role added
+  401:
+    description: Not authorized you don't have access yet
+  403:
+    description: User does not having the necessary permissions
+  404:
+    description: Not found

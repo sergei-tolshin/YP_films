@@ -20,7 +20,7 @@
 3. При необходимости озвучить голосовое сообщение синтезированным голосом, приложение навыка сообщает платформе Яндекс.Диалоги о необходимости отправить
 текст для синтеза, платформа из полученного текста возвращает поток речи на устройство для проигрывания пользователю.
 
-<img src="https://github.com/grand-roman/YP_films_/blob/main/architecture/assistant/img/schema.jpg" width="960" />
+<img src="https://github.com/sergei-tolshin/YP_films/blob/main/architecture/assistant/img/schema.jpg" width="960" />
 
 ---
 
